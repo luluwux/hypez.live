@@ -22,3 +22,15 @@ Hypez is currently in beta — getting better every day.
   <summary style="display: block;"></summary>
   <p align="center"><img src="./image/HypezAdminPage.png" alt="Hypez.live Homepage" width=""></p>
 </details>
+
+## 🌟 Support
+
+If you found this project helpful, please consider leaving a 🌟 star. Thank you!
+
+<p align="center"\>
+</p\>
+
+- [My Discord Profile](https://discord.com/users/852103749228036136)
+
+- If you find any errors, you can contact luppux
+<br> </br>
