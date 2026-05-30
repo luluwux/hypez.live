@@ -18,6 +18,12 @@ Hypez.live is built on a hierarchical monorepo architecture (Turborepo), a high-
 
 Going far beyond standard listing websites, the platform features a real-time data engine capable of tracking voice channel activity, message density, and streamer status on servers, along with advanced moderation and administration tools.
 
+### 📸 Real Landing Page Preview
+
+<p align="center">
+  <img src="./image/homepage.png" alt="Hypez Homepage Screenshot" width="80%">
+</p>
+
 ---
 
 ## 🛠️ Architecture & Technical Stack
