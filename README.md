@@ -1,4 +1,4 @@
-# <p align="center"><img src="./image/logo.png" alt="Hypez.live Logo" width="160"></p>
+# <p align="center"><img src="./image/HypezLogo.png" alt="Hypez.live Logo" width="160"></p>
 
 # <p align="center">⚡ Hypez.live — Discord Server & Bot Discovery Platform</p>
 
@@ -17,14 +17,6 @@
 Hypez.live is built on a hierarchical monorepo architecture (Turborepo), a high-performance Next.js frontend, an enterprise-grade NestJS backend, and a robust PostgreSQL database powered by Prisma ORM.
 
 Going far beyond standard listing websites, the platform features a real-time data engine capable of tracking voice channel activity, message density, and streamer status on servers, along with advanced moderation and administration tools.
-
-### 📸 Real Landing Page Preview
-
-<p align="center">
-  <img src="./image/homepage.png" alt="Hypez Homepage Screenshot" width="80%">
-</p>
-
----
 
 ## 🛠️ Architecture & Technical Stack
 
