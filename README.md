@@ -9,7 +9,7 @@ Our ranking system goes beyond simple vote counts. Community activity, voice cha
 
 Hypez is currently in beta — getting better every day.
 
-## Image 
+## ✨ Image 
 
 ### Home Page
 <details>
@@ -33,4 +33,10 @@ If you found this project helpful, please consider leaving a 🌟 star. Thank yo
 - [My Discord Profile](https://discord.com/users/852103749228036136)
 
 - If you find any errors, you can contact luppux
+<br> </br>
+<p align="center">
+  <a href="https://discord.gg/luppux" target="_blank">
+    <img src="https://api.weblutions.com/discord/invite/luppux/" alt="Discord Banner">
+  </a>
+</p>
 <br> </br>
