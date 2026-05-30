@@ -4,7 +4,7 @@
 
 <details>
   <summary style="display: block;"></summary>
-  sa
+  <p align="center"><img src="./image/HypezHomepage.png" alt="Hypez.live Homepage" width="160"></p>
 </details>
 <details>
   <summary style="display: block;"></summary>
