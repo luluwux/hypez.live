@@ -20,7 +20,7 @@ Hypez is currently in beta — getting better every day.
 ### Admin Page
 <details>
   <summary style="display: block;"></summary>
-  <p align="center"><img src="./image/HypezAdminPage.png" alt="Hypez.live Homepage" width=""></p>
+  <p align="center"><img src="./image/HypezAdmin.png" alt="Hypez.live Homepage" width=""></p>
 </details>
 
 ## 🌟 Support
