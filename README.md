@@ -2,6 +2,7 @@
 
 # <p align="center">⚡ Hypez.live — Discord Server & Bot Discovery Platform</p>
 
+## Home Page
 <details>
   <summary style="display: block;"></summary>
   <p align="center"><img src="./image/HypezHomepage.png" alt="Hypez.live Homepage" width=""></p>
