@@ -1,5 +1,12 @@
 # <p align="center"><img src="./image/HypezLogo.png" alt="Hypez.live Logo" width="160"></p>
 
+<p align="center">
+  ⭐ If there's enough interest, the source code will be made public. (50+ Star)
+  </p>
+  <p align="center">
+  ⭐ Yeterli ilgi görülmesi halinde kaynak kod herkese paylaşılacaktır.
+</p>
+
 # <p align="center">Hypez.live — Discord Server Discovery Platform</p>
 Hypez is the easiest way to discover, grow, and promote your Discord server.
 
