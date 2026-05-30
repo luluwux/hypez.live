@@ -18,6 +18,10 @@ Hypez.live is built on a hierarchical monorepo architecture (Turborepo), a high-
 
 Going far beyond standard listing websites, the platform features a real-time data engine capable of tracking voice channel activity, message density, and streamer status on servers, along with advanced moderation and administration tools.
 
+<details>
+  <summary style="display: block;"></summary>
+  sa
+
 ## 🛠️ Architecture & Technical Stack
 
 The project is structured as a monorepo, strictly adhering to SOLID software principles and ensuring a robust Separation of Concerns (SoC):
