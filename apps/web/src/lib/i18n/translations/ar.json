@@ -1,0 +1,439 @@
+{
+  "common": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "dashboard": "لوحة التحكم",
+    "profile": "ملفي الشخصي",
+    "language": "اللغة",
+    "search": "البحث عن السيرفرات...",
+    "addServer": "إضافة سيرفر",
+    "addYourServer": "أضف سيرفرك",
+    "supportServer": "سيرفر الدعم",
+    "learnMore": "اعرف المزيد",
+    "premiumShowcase": "عرض مميز",
+    "startDiscovering": "ابدأ الاكتشاف",
+    "categories": "التصنيفات",
+    "selectCategory": "اختر تصنيف",
+    "membersCount": "{count} عضو"
+  },
+  "navbar": {
+    "discover": "اكتشف",
+    "allServers": "جميع الخوادم",
+    "leaderboard": "لوحة المتصدرين",
+    "services": "الخدمات",
+    "getPremium": "احصل على بريميوم",
+    "addBot": "أضف البوت",
+    "support": "الدعم",
+    "discordServer": "خادم ديسكورد الخاص بنا",
+    "helpCenter": "مركز المساعدة",
+    "terms": "القواعد والشروط",
+    "privacy": "سياسة الخصوصية",
+    "cookie": "سياسة ملفات تعريف الارتباط",
+    "contentPolicy": "سياسة المحتوى",
+    "salesAgreement": "اتفاقية المبيعات",
+    "allUsers": "All Users"
+  },
+  "home": {
+    "hero": {
+      "activeServers": "✨ {count} سيرفر نشط متصل",
+      "title": "اكتشف سيرفرات جديدة!",
+      "subtitle": "استكشف أفضل سيرفرات ديسكورد، وابحث عن مجتمعك، وتواصل مع أشخاص يشاركونك نفس الاهتمامات.",
+      "marquee": "اكتشف سيرفرات جديدة ✦ Hypez ✦ جد مجتمعك ✦"
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "subtitle": "ابحث عن كل ما تحتاج لمعرفته حول Hypez هنا.",
+      "q1": {
+        "question": "هل Hypez مستقل عن ديسكورد؟",
+        "answer": "نعم، Hypez هي مبادرة مستقلة تمامًا. نحن لسنا جزءًا رسميًا من ديسكورد، ولكننا منصة تركز على المجتمع مصممة لمساعدة مجتمعات ديسكورد على النمو والازدهار. نحن نلتزم تمامًا بشروط خدمة ديسكورد وإرشادات المجتمع."
+      },
+      "q2": {
+        "question": "كيف يعمل نظام \"رفع السيرفر\"؟",
+        "answer": "من خلال نظامنا المتميز، يمكنك نقل سيرفرك إلى أعلى القوائم، وكسب شارات خاصة (بريميوم/بريميوم ماكس)، والظهور في قسم \"العرض\". هذا يضمن أن يلاحظ سيرفرك الآلاف من الأعضاء المحتملين بشكل أسرع، مما يساعد مجتمعك على النمو بسرعة."
+      },
+      "q3": {
+        "question": "كيف يمكنني إضافة سيرفري؟",
+        "answer": "يمكنك التسجيل في ثوانٍ عن طريق إضافة بوت Hypez إلى سيرفرك. يقوم البوت الخاص بنا بسحب معلومات سيرفرك تلقائيًا وإنشاء ملف التعريف الخاص بك. يمكنك بعد ذلك تعديل وصفك ولافتتك وعلاماتك من لوحة التحكم لبدء الترويج لسيرفرك."
+      },
+      "q4": {
+        "question": "هل الإدراج مجاني؟",
+        "answer": "لا، إضافة وإدراج سيرفرك على Hypez مجاني تمامًا. ومع ذلك، إذا كنت ترغب في الوصول إلى المزيد من الأشخاص والاستفادة من المزايا الحصرية، يمكنك التحقق من باقاتنا المتميزة ذات الأسعار المعقولة."
+      }
+    },
+    "trustedBy": "✨ موثوق به من قبل {count} عضو",
+    "spotAvailable": "مكان متاح",
+    "useHypeToRank": "استخدم /hype للترتيب",
+    "trendingServers": "الخوادم الشائعة",
+    "newlyAdded": "مضاف حديثاً",
+    "topServers": "أفضل الخوادم",
+    "premium": {
+      "title": "خوادم مميزة"
+    },
+    "discover": {
+      "title": "ابدأ الاستكشاف",
+      "more": "المزيد"
+    },
+    "leaderboards": {
+      "title": "المتصدرين",
+      "mostVoted": "الأكثر تصويتا",
+      "mostVoice": "الأكثر صوتا",
+      "mostHype": "الأكثر حماسا",
+      "viewAll": "عرض الكل"
+    },
+    "boostAd": {
+      "title": "عزز خادمك!",
+      "subtitle": "قم بتنمية مجتمعك من خلال عرضه لآلاف الأشخاص.",
+      "cta": "احصل على بريميوم",
+      "sponsoredSlot": "مكان برعاية",
+      "advertiseHere": "أعلن هنا"
+    }
+  },
+  "login": {
+    "welcome": "مرحبًا بك في",
+    "subtitle": "سجل الدخول باستخدام ديسكورد للمتابعة",
+    "agreement": "بتسجيل الدخول، فإنك توافق على",
+    "and": "و",
+    "newTo": "جديد في Hypez؟"
+  },
+  "footer": {
+    "cta": {
+      "title": "جاهز للمنافسة بسيرفر ديسكورد الخاص بك؟",
+      "subtitle": "أضف البوت إلى سيرفرك وابدأ على الفور."
+    },
+    "brand": {
+      "description": "مرحبًا بك في Hypez، مجتمع ديسكورد تم بناؤه على أساس مطور متعدد المواهب لديه شغف عميق بجميع جوانب ديسكورد."
+    },
+    "company": {
+      "title": "الشركة",
+      "about": "حول",
+      "careers": "وظائف",
+      "press": "صحافة",
+      "affiliates": "الشركاء"
+    },
+    "legal": {
+      "title": "قانوني"
+    },
+    "social": {
+      "title": "وسائل التواصل"
+    }
+  },
+  "premium": {
+    "title": "رقي مجتمعك",
+    "subtitle": "أطلق العنان لإمكانياتك",
+    "description": "اختر الخطة المثالية لتنمية سيرفر ديسكورد الخاص بك. احصل على المزيد من الظهور، والمزيد من الأعضاء، وميزات حصرية.",
+    "tiers": {
+      "free": "مجاني",
+      "premium": "بريميوم",
+      "max": "بريميوم ماكس",
+      "freeDesc": "إدراج أساسي للخادم وميزات أساسية.",
+      "premiumDesc": "أدوات متقدمة لتنمية خادمك."
+    },
+    "billing": {
+      "daily": "يومي",
+      "weekly": "أسبوعي",
+      "monthly": "شهري",
+      "save": "وفر حتى 20% مع الفوترة الشهرية!"
+    },
+    "features": {
+      "listing": "قائمة سيرفر أساسية",
+      "bump": "رفع قياسي (كل 4 ساعات)",
+      "votePower": "1x قوة التصويت",
+      "socialLinks": "2 روابط اجتماعية",
+      "highlighted": "قائمة مميزة (أصفر)",
+      "fasterBump": "رفع أسرع (كل ساعتين)",
+      "animatedBanner": "لافتة متحركة",
+      "goldBadge": "شارة ذهبية",
+      "topSearch": "أعلى نتائج البحث",
+      "instantBump": "رفع فوري (كل ساعة)",
+      "showcase": "فتحة عرض مميزة",
+      "diamond": "شارة ماسية ولمعان",
+      "support": "دعم ذو أولوية",
+      "votePower1x": "قوة تصويت 1x",
+      "votePower2x": "قوة تصويت 2x",
+      "votePower3x": "قوة تصويت 3x",
+      "highlightedDiamond": "تمييز ماسي (أزرق)"
+    },
+    "cta": "سجل الدخول للشراء",
+    "comparePlans": "مقارنة الخطط",
+    "faq": {
+      "title": "أسئلة الدفع الشائعة",
+      "subtitle": "هل لديك أسئلة حول المدفوعات أو الاشتراكات؟ لدينا إجابات.",
+      "q1": {
+        "question": "ما هي طرق الدفع التي تقبلونها؟",
+        "answer": "نحن نقبل جميع بطاقات الائتمان الرئيسية (Visa، Mastercard)، وPayPal، وطرق الدفع المحلية حسب منطقتك. تتم معالجة جميع المدفوعات بأمان عبر Stripe."
+      },
+      "q2": {
+        "question": "هل يمكنني إلغاء اشتراكي في أي وقت؟",
+        "answer": "نعم! يمكنك إلغاء اشتراكك في أي وقت من لوحة التحكم الخاصة بك. ستستمر مزاياك حتى نهاية فترة الفوترة الحالية."
+      },
+      "q3": {
+        "question": "هل تقدمون استردادًا للأموال؟",
+        "answer": "نقدم ضمان استرداد الأموال لمدة 7 أيام إذا لم تكن راضيًا عن خدماتنا المتميزة. يرجى الاتصال بفريق الدعم لدينا لمعالجة الاسترداد."
+      },
+      "q4": {
+        "question": "ماذا يحدث إذا قمت بالترقية في منتصف الدورة؟",
+        "answer": "إذا قمت بالترقية من بريميوم إلى بريميوم ماكس، فسيتم تحصيل الفرق النسبي فقط للأيام المتبقية من دورتك الحالية."
+      }
+    }
+  },
+  "server": {
+    "stats": {
+      "members": "الأعضاء",
+      "channels": "القنوات",
+      "roles": "الأدوار",
+      "boost": "تعزيز",
+      "voice": "الصوت",
+      "onlineMembers": "الأعضاء المتصلون",
+      "totalVotes": "إجمالي الأصوات",
+      "voiceActivity": "نشاط الصوت الأسبوعي",
+      "weeklyMessages": "الرسائل الأسبوعية",
+      "weeklyHype": "الضجة الأسبوعية",
+      "totalHype": "إجمالي الضجة",
+      "voiceActivityChart": "نشاط الصوت",
+      "messageActivityChart": "نشاط الرسائل",
+      "hypeScoreTrend": "اتجاه نقاط الضجة (7 أيام)",
+      "weeklyHypeScore": "أسبوعياً: {score} نقطة",
+      "noVoiceData": "لا توجد بيانات صوتية هذا الأسبوع.",
+      "noMessageData": "لا توجد بيانات رسائل هذا الأسبوع.",
+      "noHypeData": "لا توجد بيانات ضجة بعد.",
+      "lastNRecords": "آخر {n} سجلات",
+      "dayN": "اليوم {n}"
+    },
+    "info": {
+      "title": "معلومات السيرفر",
+      "verification": "التحقق",
+      "memberCount": "عدد الأعضاء",
+      "roleCount": "عدد الأدوار",
+      "channelCount": "عدد القنوات",
+      "voiceOnline": "في الصوت",
+      "createdAt": "تاريخ الإنشاء",
+      "language": "اللغة",
+      "verified": "موثق",
+      "standard": "عادي"
+    },
+    "topVoters": {
+      "title": "أكثر المصوتين",
+      "empty": "لا توجد أصوات بعد.",
+      "votes": "أصوات"
+    },
+    "categories": {
+      "title": "الفئات",
+      "empty": "لا توجد فئات"
+    },
+    "tabs": {
+      "general": "عام",
+      "statistics": "إحصائيات",
+      "emojis": "الرموز",
+      "sticker": "الملصقات"
+    },
+    "header": {
+      "joinServer": "انضم للسيرفر",
+      "voteServer": "صوّت",
+      "linkNotSet": "الرابط غير مضبوط"
+    },
+    "emojis": {
+      "title": "الرموز التعبيرية",
+      "empty": "لا توجد رموز في هذا السيرفر.",
+      "pendingSync": "لم تتزامن بيانات الرموز بعد.",
+      "found": "{count} رمز تعبيري",
+      "selected": "{count} محدد",
+      "clearSelection": "إلغاء التحديد",
+      "selectAll": "تحديد الكل",
+      "downloadZip": "تحميل ZIP ({count})",
+      "downloading": "جاري التحميل...",
+      "animated": "GIF"
+    },
+    "stickers": {
+      "title": "الملصقات",
+      "empty": "لا توجد ملصقات في هذا السيرفر.",
+      "pendingSync": "لم تتزامن بيانات الملصقات بعد.",
+      "found": "{count} ملصق",
+      "selected": "{count} محدد",
+      "clearSelection": "إلغاء التحديد",
+      "selectAll": "تحديد الكل",
+      "downloadZip": "تحميل ZIP ({count})",
+      "downloading": "جاري التحميل..."
+    }
+  },
+  "categories": {
+    "all": "الكل",
+    "gaming": "ألعاب",
+    "social": "اجتماعي",
+    "music": "موسيقى",
+    "community": "مجتمع",
+    "technology": "تكنولوجيا",
+    "roleplay": "لعب الأدوار",
+    "anime": "أنيمي",
+    "art": "فن",
+    "programming": "برمجة",
+    "crypto": "كريبتو"
+  },
+  "discover": {
+    "hero": {
+      "badge": "Explore. Join. Belong",
+      "title": "Discover New Servers"
+    },
+    "filters": {
+      "serversFound": "{count} servers found",
+      "sortBy": "Sort By",
+      "category": "Category",
+      "all": "All",
+      "sort": {
+        "discover": "Discover",
+        "hype": "Hype",
+        "votes": "Votes",
+        "voice": "Voice",
+        "boost": "Boost",
+        "members": "Members",
+        "recent": "New"
+      }
+    },
+    "card": {
+      "noDescription": "No description provided."
+    },
+    "search": {
+      "placeholder": "Search for Discord servers..."
+    }
+  },
+  "top": {
+    "hero": {
+      "title": "Top 100 Servers List",
+      "subtitle": "Find the best Discord communities, ranked by real activity and engagement."
+    },
+    "lastUpdated": "Last Updated:",
+    "time": {
+      "justNow": "Just Now",
+      "secondsAgo": "{seconds}s ago",
+      "minutesAgo": "{minutes}m ago",
+      "hoursAgo": "{hours}h ago"
+    },
+    "states": {
+      "error": "Failed to load servers. Please try again.",
+      "noServers": "No servers found",
+      "noServersDesc": "Try a different ranking or check back later."
+    }
+  },
+  "profile": {
+    "layout": {
+      "accountManagement": "Account Management",
+      "myProfile": "My Profile",
+      "settings": "Settings"
+    },
+    "settings": {
+      "title": "App Settings",
+      "language": {
+        "title": "Language Selection"
+      },
+      "contentFilter": {
+        "title": "Content Filter",
+        "nsfw": "Show NSFW (18+) Content",
+        "nsfwDesc": "Shows servers with adult content in the list."
+      },
+      "dangerZone": {
+        "title": "Danger Zone",
+        "deleteAccount": "Delete My Account",
+        "deleteDesc": "When you delete your account, all your saved servers and data will be permanently deleted.",
+        "deleteBtn": "Delete Account Permanently",
+        "alert": "Account deletion is currently disabled."
+      }
+    },
+    "editForm": {
+      "notAddedYet": "Not added yet",
+      "unknown": "Unknown",
+      "views": "views",
+      "likes": "likes",
+      "trust": "Trust:",
+      "profileCompletion": "Profile completion",
+      "notPublishedTitleHighlight": "You can't view your profile without publishing",
+      "notPublishedTitle": "Profile not published",
+      "notPublishedDesc": "Fill in your details and click the **Publish Profile** button below — to make it visible to everyone. You'll earn the **Early Supporter** badge on your first publish!",
+      "successSave": "Profile saved successfully.",
+      "errorSave": "Could not be saved.",
+      "successPublish": "Profile published! It is now visible to everyone.",
+      "errorPublish": "Could not be published.",
+      "profileInfo": "Profile Information",
+      "occupation": "Occupation",
+      "occupationPlaceholder": "Software Developer",
+      "gender": "Gender",
+      "genderPlaceholder": "Prefer not to say",
+      "location": "Location",
+      "locationPlaceholder": "Istanbul, Turkey",
+      "birthday": "Birthday",
+      "about": "About",
+      "aboutPlaceholder": "Tell us about yourself...",
+      "socialLinks": "Social Links",
+      "addLink": "Add Link",
+      "noLinks": "You haven't added any social links yet.",
+      "publishProfile": "Publish Profile",
+      "unsavedChanges": "There are unsaved changes!",
+      "cancel": "Cancel",
+      "save": "Save",
+      "genderOptions": {
+        "he": "He/Him",
+        "she": "She/Her",
+        "they": "They/Them",
+        "unspecified": "Prefer not to say"
+      }
+    }
+  },
+  "userMenu": {
+    "profile": "Profile",
+    "language": "Language",
+    "nsfw": "NSFW Content",
+    "help": "Help",
+    "logout": "Log Out"
+  },
+  "userProfile": {
+    "loginRequired": "You must be logged in to do this",
+    "likeSuccess": "Profile liked!",
+    "likeRemoved": "Like removed.",
+    "error": "An error occurred",
+    "goBack": "Go Back",
+    "edit": "Edit",
+    "about": "About",
+    "noAbout": "No information added yet.",
+    "occupation": "Occupation",
+    "gender": "Gender",
+    "location": "Location",
+    "birthday": "Birthday",
+    "views": "Views",
+    "likes": "Likes",
+    "unspecified": "Unspecified",
+    "servers": "Servers",
+    "members": "members",
+    "noServers": "This user does not have any servers on our platform yet.",
+    "social": "Social",
+    "noSocial": "No social accounts added",
+    "externalLinkTitle": "External Link",
+    "externalLinkDesc": "You are currently being redirected to an external link. The destination address is:",
+    "cancel": "Cancel",
+    "continue": "Continue"
+  },
+  "users": {
+    "hero": {
+      "title": "All Users",
+      "subtitle": "Discover registered and publicly visible users on the Hypez platform."
+    },
+    "filters": {
+      "found": "{count} users found",
+      "search": "Search users...",
+      "sortBy": "Sort by",
+      "sort": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "likes": "Most Liked",
+        "views": "Most Viewed"
+      }
+    },
+    "card": {
+      "about": "About me",
+      "noAbout": "This user has not set an about me yet.",
+      "likes": "Likes",
+      "views": "Views",
+      "created": "Created",
+      "visit": "Visit",
+      "share": "Share",
+      "linkCopied": "Link copied!"
+    }
+  }
+}

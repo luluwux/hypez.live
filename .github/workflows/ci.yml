@@ -1,0 +1,147 @@
+name: CI
+on:
+  push:
+    branches: [main, master, develop]
+  pull_request:
+    branches: [main, master]
+  workflow_call:
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx turbo run lint
+
+  type-check:
+    name: Type Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build --workspace=@hypez/shared-types
+      - run: npx turbo run check-types
+
+  api-tests:
+    name: API Tests (Coverage)
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: hypez
+          POSTGRES_PASSWORD: hypez_test
+          POSTGRES_DB: hypez_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 10s
+          --health-retries 10
+          --health-start-period 30s
+      redis:
+        image: redis:7-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 10s
+          --health-retries 10
+          --health-start-period 20s
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Wait for PostgreSQL
+        run: |
+          for i in $(seq 1 30); do
+            if pg_isready -h localhost -p 5432 -U hypez; then
+              echo "PostgreSQL ready"
+              break
+            fi
+            echo "Waiting... $i/30"
+            sleep 2
+          done
+      - name: Wait for Redis
+        run: |
+          for i in $(seq 1 30); do
+            if redis-cli -h localhost ping | grep -q PONG; then
+              echo "Redis ready"
+              break
+            fi
+            echo "Waiting... $i/30"
+            sleep 2
+          done
+      - run: npx prisma@6 generate --schema=prisma/schema.prisma
+      - run: npm run build --workspace=@hypez/shared-types
+      - name: Run API tests with coverage
+        run: npx jest --coverage --passWithNoTests
+        working-directory: apps/api
+        env:
+          DATABASE_URL: postgresql://hypez:hypez_test@localhost:5432/hypez_test
+          REDIS_URL: redis://localhost:6379
+      - name: Upload coverage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-coverage
+          path: apps/api/coverage/
+          retention-days: 7
+
+  bot-tests:
+    name: Bot Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build shared-types
+        run: npm run build --workspace=@hypez/shared-types
+      - name: Run bot tests
+        run: npx jest --passWithNoTests
+        working-directory: apps/bot
+
+  web-check:
+    name: Web Build Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx prisma@6 generate --schema=prisma/schema.prisma
+      - run: npm run build --workspace=@hypez/shared-types
+      - name: Build web app
+        run: ADMIN_API_KEY=ci-build-key npx next build
+        working-directory: apps/web
+        env:
+          NEXT_PUBLIC_API_URL: http://localhost:3001
+          NEXTAUTH_URL: http://localhost:3000
+          NEXTAUTH_SECRET: ci-secret-for-build
+          JWT_SECRET: ci-jwt-secret-for-build
+          AUTH_SECRET: ci-auth-secret-for-build
+          DISCORD_CLIENT_ID: dummy-client-id
+          DISCORD_CLIENT_SECRET: dummy-client-secret
+          SKIP_ENV_VALIDATION: true

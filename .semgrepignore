@@ -1,0 +1,15 @@
+# Railway Redis TLS: rejectUnauthorized: false is intentional for Railway's
+# internal TLS termination proxy — not a security issue in this deployment context.
+apps/api/src/app.module.ts
+apps/api/src/common/services/redis-cache.service.ts
+apps/api/src/modules/servers/leaderboard.service.ts
+apps/api/src/modules/verification/analytics.service.ts
+apps/bot/src/services/captcha-pool.service.ts
+apps/bot/src/utils/queue.ts
+apps/bot/src/utils/redis.ts
+
+# Build artifacts and dependencies
+node_modules/
+.next/
+dist/
+out/

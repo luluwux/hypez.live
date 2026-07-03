@@ -1,0 +1,38 @@
+{
+  "name": "hypez",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types",
+    "db:push": "npx prisma db push --schema=prisma/schema.prisma",
+    "db:deploy": "node scripts/db-deploy.js",
+    "db:seed": "npx tsx prisma/seed.ts",
+    "db:merge-ghosts": "npx tsx scripts/merge-ghost-users.ts",
+    "db:studio": "npx prisma studio --schema=prisma/schema.prisma"
+  },
+  "prisma": {
+    "seed": "npx tsx prisma/seed.ts"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "prisma": "^6.19.0",
+    "turbo": "^2.3.3",
+    "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@10.8.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "discord-api-types": "^0.37.70",
+    "discord.js": "^14.14.1"
+  }
+}

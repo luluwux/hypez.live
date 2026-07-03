@@ -1,0 +1,591 @@
+{
+  "common": {
+    "login": "Login",
+    "download": "Download",
+    "logout": "Log Out",
+    "dashboard": "Dashboard",
+    "profile": "My Profile",
+    "language": "Language",
+    "search": "Search servers...",
+    "addServer": "Add Server",
+    "addYourServer": "Add Your Server",
+    "supportServer": "Support Server",
+    "learnMore": "Learn more",
+    "premiumShowcase": "Premium Showcase",
+    "startDiscovering": "Start Discovering",
+    "categories": "Categories",
+    "selectCategory": "Select Category",
+    "membersCount": "{count} members"
+  },
+  "navbar": {
+    "discover": "Discover",
+    "allServers": "All Servers",
+    "leaderboard": "Leaderboard",
+    "services": "Services",
+    "getPremium": "Get Premium",
+    "addBot": "Add Bot",
+    "support": "Support",
+    "discordServer": "Our Discord Server",
+    "helpCenter": "Help Center",
+    "terms": "Rules and Terms",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "contentPolicy": "Content Policy",
+    "salesAgreement": "Sales Agreement",
+    "allUsers": "All Users"
+  },
+  "home": {
+    "hero": {
+      "activeServers": "✨ {count} Active Servers Online",
+      "title": "Discover New Servers!",
+      "subtitle": "Explore the top Discord servers, find your community, and connect with like-minded people.",
+      "marquee": "Discover New Servers ✦ Hypez ✦ Find Your Community ✦"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find everything you need to know about Hypez right here.",
+      "q1": {
+        "question": "Is Hypez independent from Discord?",
+        "answer": "Yes, Hypez is a completely independent initiative. We are not an official part of Discord, but a community-focused platform designed to help Discord communities grow and thrive. We fully comply with Discord's Terms of Service and Community Guidelines."
+      },
+      "q2": {
+        "question": "How does the \"Boost Server\" system work?",
+        "answer": "With our Premium system, you can move your server to the top of the lists, earn a special Premium badge, and be featured in the \"Showcase\" section. This ensures your server gets noticed by thousands of potential members faster, helping your community grow rapidly."
+      },
+      "q3": {
+        "question": "How can I add my server?",
+        "answer": "You can register in seconds by adding the Hypez bot to your server. Our bot automatically pulls your server information and creates your profile. You can then edit your description, banner, and tags from the control panel to start promoting your server."
+      },
+      "q4": {
+        "question": "Is listing free?",
+        "answer": "Yes, adding and listing your server on Hypez is completely free. However, if you want to reach more people and benefit from exclusive advantages, you can check out our affordable Premium packages."
+      }
+    },
+    "trustedBy": "✨ Trusted by {count} Members",
+    "spotAvailable": "Spot Available",
+    "useHypeToRank": "Use /hype to rank",
+    "trendingServers": "Trending Servers",
+    "newlyAdded": "Newly Added",
+    "topServers": "Top Servers",
+    "premium": {
+      "title": "Premium Servers"
+    },
+    "discover": {
+      "title": "Start Discovering",
+      "more": "View All Servers"
+    },
+    "leaderboards": {
+      "title": "Leaderboards",
+      "mostVoted": "Most Voted",
+      "mostVoice": "Most Voice",
+      "mostHype": "Most Hype",
+      "viewAll": "View All"
+    },
+    "boostAd": {
+      "title": "Boost Your Server!",
+      "subtitle": "Grow your community by showcasing it to thousands.",
+      "cta": "Get Premium",
+      "sponsoredSlot": "Sponsored Slot",
+      "advertiseHere": "Advertise Here"
+    }
+  },
+  "login": {
+    "welcome": "Welcome to",
+    "subtitle": "Sign in with Discord to continue",
+    "agreement": "By signing in, you agree to our",
+    "and": "and",
+    "newTo": "New to Hypez?"
+  },
+  "footer": {
+    "cta": {
+      "title": "Ready to compete with your Discord server?",
+      "subtitle": "Add the bot to your server and get started immediately."
+    },
+    "brand": {
+      "description": "Welcome to Hypez, a Discord Community built on the foundation of a versatile developer who has a deep passion for all aspects of Discord."
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "careers": "Careers",
+      "press": "Press",
+      "affiliates": "Affiliates"
+    },
+    "legal": {
+      "title": "Legal"
+    },
+    "social": {
+      "title": "Social Media"
+    }
+  },
+  "premium": {
+    "title": "Upgrade Your Community",
+    "subtitle": "Unlock Your Potential",
+    "description": "Choose the perfect plan to grow your Discord server. Get more visibility, more members, and exclusive features.",
+    "badge": {
+      "bestValue": "BEST VALUE",
+      "mostPopular": "MOST POPULAR"
+    },
+    "button": {
+      "currentPlan": "Current Plan",
+      "getStarted": "Get Started"
+    },
+    "tiers": {
+      "free": "Free",
+      "premium": "Premium",
+      "limitsiz": "Limitsiz",
+      "lifetime": "Lifetime",
+      "limitsizDesc": "One-time payment. Permanent premium features forever.",
+      "freeDesc": "Basic server listing and essential features for your community.",
+      "premiumDesc": "Advanced tools to grow and promote your server."
+    },
+    "billing": {
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "save": "Save up to 20% with Monthly billing!"
+    },
+    "features": {
+      "listing": "Basic Server Listing",
+      "bump": "Standard Bump (Every 4h)",
+      "votePower": "1x Vote Power",
+      "socialLinks": "2 Social Links",
+      "highlighted": "Highlighted Listing (Yellow)",
+      "fasterBump": "Faster Bump (Every 2h)",
+      "animatedBanner": "Animated Banner",
+      "goldBadge": "Gold Badge",
+      "topSearch": "Top of Search Results",
+      "instantBump": "Instant Bump (Every 1h)",
+      "showcase": "Featured Showcase Slot",
+      "diamond": "Diamond Badge & Glow",
+      "support": "Priority Support",
+      "votePower1x": "1x Vote Power",
+      "votePower2x": "2x Vote Power",
+      "votePower3x": "3x Vote Power",
+      "highlightedDiamond": "Diamond Highlight (Blue)"
+    },
+    "cta": "Login to Purchase",
+    "comparePlans": "Compare Plans",
+    "faq": {
+      "title": "Payment FAQ",
+      "subtitle": "Have questions about payments or subscriptions? We've got answers.",
+      "q1": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards (Visa, Mastercard), PayPal, and localized payment methods depending on your region. All payments are processed securely via Stripe."
+      },
+      "q2": {
+        "question": "Can I cancel my subscription anytime?",
+        "answer": "Yes! You can cancel your subscription at any time from your dashboard. Your benefits will continue until the end of the current billing period."
+      },
+      "q3": {
+        "question": "Do you offer refunds?",
+        "answer": "We offer a 7-day money-back guarantee if you are not satisfied with our Premium services. Please contact our support team to process a refund."
+      },
+      "q4": {
+        "question": "What happens if I upgrade in the middle of a cycle?",
+        "answer": "If you upgrade from Free to Premium mid-cycle, you will only be charged the prorated amount for the remaining days of your current cycle."
+      }
+    }
+  },
+  "discover": {
+    "hero": {
+      "title": "Discover New Servers",
+      "subtitle": "Find the best Discord servers, filter by category, and join your community.",
+      "noResults": "No servers found matching your criteria.",
+      "badge": "Explore. Join. Belong"
+    },
+    "filters": {
+      "serversFound": "{count} servers found",
+      "sortBy": "Sort By",
+      "category": "Category",
+      "selectCategory": "Select Category",
+      "all": "All",
+      "language": "Language",
+      "allLanguages": "All Languages",
+      "nsfw": "Show 18+ (NSFW)",
+      "sort": {
+        "discover": "Discover",
+        "hype": "Hype",
+        "votes": "Votes",
+        "voice": "Voice",
+        "boost": "Boost",
+        "members": "Members",
+        "recent": "New"
+      }
+    },
+    "card": {
+      "noDescription": "No description provided."
+    },
+    "search": {
+      "placeholder": "Search for Discord servers..."
+    }
+  },
+  "server": {
+    "stats": {
+      "members": "Members",
+      "channels": "Channels",
+      "roles": "Roles",
+      "boost": "Boost",
+      "voice": "Voice",
+      "onlineMembers": "Online Members",
+      "totalVotes": "Total Votes",
+      "voiceActivity": "Weekly Voice Activity",
+      "weeklyMessages": "Weekly Messages",
+      "weeklyHype": "Weekly Hype",
+      "totalHype": "Total Hype",
+      "voiceActivityChart": "Voice Activity",
+      "messageActivityChart": "Message Activity",
+      "hypeScoreTrend": "Hype Score Trend (7 Days)",
+      "weeklyHypeScore": "Weekly: {score} points",
+      "noVoiceData": "No voice data yet for this week.",
+      "noMessageData": "No message data yet for this week.",
+      "noHypeData": "No hype data yet.",
+      "lastNRecords": "Last {n} Records",
+      "dayN": "Day {n}"
+    },
+    "info": {
+      "title": "Server Info",
+      "verification": "Verification",
+      "owner": "Server Owner",
+      "memberCount": "Member Count",
+      "roleCount": "Role Count",
+      "channelCount": "Channel Count",
+      "voiceOnline": "Voice Online",
+      "createdAt": "Created",
+      "language": "Language",
+      "verified": "Verified",
+      "standard": "Standard"
+    },
+    "topVoters": {
+      "title": "Top Voters",
+      "empty": "No votes yet.",
+      "votes": "votes"
+    },
+    "categories": {
+      "title": "Categories",
+      "empty": "No categories"
+    },
+    "tabs": {
+      "general": "General",
+      "statistics": "Statistics",
+      "emojis": "Emojis",
+      "sticker": "Stickers"
+    },
+    "header": {
+      "joinServer": "Join Server",
+      "voteServer": "Vote",
+      "linkNotSet": "Link Not Set"
+    },
+    "emojis": {
+      "title": "Emojis",
+      "empty": "No emojis on this server yet.",
+      "pendingSync": "Emoji data not synced yet. Waiting for bot sync.",
+      "found": "{count} emojis found",
+      "selected": "{count} selected",
+      "clearSelection": "Clear Selection",
+      "selectAll": "Select All",
+      "downloadZip": "Download ZIP ({count})",
+      "downloading": "Downloading...",
+      "animated": "GIF"
+    },
+    "stickers": {
+      "title": "Stickers",
+      "empty": "No stickers on this server yet.",
+      "pendingSync": "Sticker data not synced yet. Waiting for bot sync.",
+      "found": "{count} stickers found",
+      "selected": "{count} selected",
+      "clearSelection": "Clear Selection",
+      "selectAll": "Select All",
+      "downloadZip": "Download ZIP ({count})",
+      "downloading": "Downloading..."
+    }
+  },
+  "categories": {
+    "all": "All",
+    "gaming": "Gaming",
+    "social": "Social",
+    "music": "Music",
+    "community": "Community",
+    "technology": "Technology",
+    "roleplay": "Roleplay",
+    "anime": "Anime",
+    "art": "Art",
+    "programming": "Programming",
+    "crypto": "Crypto"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "servers": "Servers",
+    "users": "Users",
+    "settings": "Settings",
+    "logout": "Log Out",
+    "overview": "Overview",
+    "totalServers": "Total Servers",
+    "totalUsers": "Total Users",
+    "activeBoosts": "Active Boosts",
+    "revenue": "Revenue",
+    "flaggedServers": "Flagged Servers",
+    "botSettings": "Bot Settings",
+    "welcome": "Welcome back, Admin!",
+    "manageSystem": "Manage system settings and content",
+    "viewAll": "View All",
+    "recentServers": "Recent Servers",
+    "recentUsers": "Recent Users",
+    "standardServers": "Standard Servers",
+    "premiumServers": "Premium Servers",
+    "tokenServers": "Token Servers",
+    "loading": "Loading...",
+    "lastUpdated": "Last updated:",
+    "noData": "No data",
+    "refresh": "Refresh",
+    "tryAgain": "Try Again",
+    "serverGrowth": "Server Growth",
+    "serverDistribution": "Server Distribution",
+    "recentActivity": "Recent Activity",
+    "adminActions": "Recent actions by administrators"
+  },
+  "top": {
+    "hero": {
+      "title": "Top 100 Servers List",
+      "subtitle": "Find the best Discord communities, ranked by real activity and engagement."
+    },
+    "lastUpdated": "Last Updated:",
+    "time": {
+      "justNow": "Just Now",
+      "secondsAgo": "{seconds}s ago",
+      "minutesAgo": "{minutes}m ago",
+      "hoursAgo": "{hours}h ago"
+    },
+    "states": {
+      "error": "Failed to load servers. Please try again.",
+      "noServers": "No servers found",
+      "noServersDesc": "Try a different ranking or check back later."
+    }
+  },
+  "profile": {
+    "layout": {
+      "accountManagement": "Account Management",
+      "myProfile": "My Profile",
+      "settings": "Settings"
+    },
+    "settings": {
+      "title": "App Settings",
+      "language": {
+        "title": "Language Selection"
+      },
+      "contentFilter": {
+        "title": "Content Filter",
+        "nsfw": "Show NSFW (18+) Content",
+        "nsfwDesc": "Shows servers with adult content in the list."
+      },
+      "premium": {
+        "title": "Premium Code Activation",
+        "desc": "Enter your premium code here to activate premium status for a server.",
+        "inputPlaceholder": "e.g., HYPEZ-XXXX-XXXX-XXXX",
+        "verifyBtn": "Verify Code",
+        "redeemBtn": "Activate Premium",
+        "selectServer": "Select the server to make premium",
+        "noServers": "You do not own any active servers.",
+        "success": "Premium activated successfully!",
+        "error": "Failed to verify code or invalid server selection.",
+        "verifiedInfo": "Code verified! Duration: {duration} Days"
+      },
+      "dangerZone": {
+        "title": "Danger Zone",
+        "deleteAccount": "Delete My Account",
+        "deleteDesc": "When you delete your account, all your saved servers and data will be permanently deleted.",
+        "deleteBtn": "Delete Account Permanently",
+        "alert": "Account deletion is currently disabled."
+      }
+    },
+    "editForm": {
+      "notAddedYet": "Not added yet",
+      "unknown": "Unknown",
+      "views": "views",
+      "likes": "likes",
+      "trust": "Trust:",
+      "profileCompletion": "Profile completion",
+      "notPublishedTitleHighlight": "You can't view your profile without publishing",
+      "notPublishedTitle": "Profile not published",
+      "notPublishedDesc": "Fill in your details and click the **Publish Profile** button below — to make it visible to everyone. You'll earn the **Early Supporter** badge on your first publish!",
+      "successSave": "Profile saved successfully.",
+      "errorSave": "Could not be saved.",
+      "successPublish": "Profile published! It is now visible to everyone.",
+      "errorPublish": "Could not be published.",
+      "profileInfo": "Profile Information",
+      "occupation": "Occupation",
+      "occupationPlaceholder": "Software Developer",
+      "gender": "Gender",
+      "genderPlaceholder": "Prefer not to say",
+      "location": "Location",
+      "locationPlaceholder": "Istanbul, Turkey",
+      "birthday": "Birthday",
+      "about": "About",
+      "aboutPlaceholder": "Tell us about yourself...",
+      "socialLinks": "Social Links",
+      "addLink": "Add Link",
+      "noLinks": "You haven't added any social links yet.",
+      "publishProfile": "Publish Profile",
+      "unsavedChanges": "There are unsaved changes!",
+      "cancel": "Cancel",
+      "save": "Save",
+      "genderOptions": {
+        "he": "Male",
+        "she": "Female",
+        "they": "Other",
+        "unspecified": "Prefer not to say"
+      }
+    }
+  },
+  "userMenu": {
+    "profile": "Profile",
+    "language": "Language",
+    "nsfw": "NSFW Content",
+    "help": "Help",
+    "logout": "Log Out"
+  },
+  "userProfile": {
+    "loginRequired": "You must be logged in to do this",
+    "likeSuccess": "Profile liked!",
+    "likeRemoved": "Like removed.",
+    "error": "An error occurred",
+    "goBack": "Go Back",
+    "edit": "Edit",
+    "about": "About",
+    "noAbout": "No information added yet.",
+    "occupation": "Occupation",
+    "gender": "Gender",
+    "location": "Location",
+    "birthday": "Birthday",
+    "views": "Views",
+    "likes": "Likes",
+    "unspecified": "Unspecified",
+    "servers": "Servers",
+    "members": "members",
+    "noServers": "This user does not have any servers on our platform yet.",
+    "social": "Social",
+    "noSocial": "No social accounts added",
+    "externalLinkTitle": "External Link",
+    "externalLinkDesc": "You are currently being redirected to an external link. The destination address is:",
+    "cancel": "Cancel",
+    "continue": "Continue"
+  },
+  "users": {
+    "hero": {
+      "title": "All Users",
+      "subtitle": "Discover registered and publicly visible users on the Hypez platform."
+    },
+    "filters": {
+      "found": "{count} users found",
+      "search": "Search users...",
+      "sortBy": "Sort by",
+      "sort": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "likes": "Most Liked",
+        "views": "Most Viewed"
+      }
+    },
+    "card": {
+      "about": "About me",
+      "noAbout": "This user has not set an about me yet.",
+      "likes": "Likes",
+      "views": "Views",
+      "created": "Created",
+      "visit": "Visit",
+      "share": "Share",
+      "linkCopied": "Link copied!"
+    }
+  },
+  "compareTable": {
+    "title": "Compare Plans",
+    "features": "Features",
+    "free": "Free",
+    "premium": "Premium",
+    "limitsiz": "Limitsiz",
+    "f1": "Server Listing",
+    "f2": "Bump Limit",
+    "f2_val1": "Every 4h",
+    "f2_val2": "Every 2h",
+    "f3": "Animated Banner",
+    "f4": "Custom Invite Link",
+    "f5": "Premium Badge",
+    "f5_val": "Sky Blue",
+    "f6": "Homepage Spotlight",
+    "f6_val": "Random",
+    "f7": "Social Links",
+    "f8": "Priority Support"
+  },
+  "help": {
+    "title": "How can we help?",
+    "subtitle": "Check out our frequently asked questions or join our community to contact our support team.",
+    "faqTitle": "Frequently Asked Questions",
+    "supportServer": "Support Server",
+    "supportDesc": "Can't find the answer you're looking for? You can contact us directly by joining our official Discord server.",
+    "joinServer": "Join Server",
+    "otherLinks": "Other Links",
+    "termsOfUse": "Terms of Use",
+    "privacyPolicy": "Privacy Policy",
+    "inviteBot": "Invite Bot",
+    "q1": {
+      "question": "What is Hypez.net?",
+      "answer": "Hypez.net is a modern server listing platform that allows you to discover Discord servers and grow your own server to reach larger audiences."
+    },
+    "q2": {
+      "question": "How can I add my server?",
+      "answer": "Click the 'Add Bot' button in the top right corner or menu to add the Hypez bot to your server. Once added, your server will automatically be listed on the platform."
+    },
+    "q3": {
+      "question": "How does the Hype system work?",
+      "answer": "You earn Hype points as users vote for your server and your server's activity increases. Servers with the highest Hype points rank higher on the Leaderboard."
+    },
+    "q4": {
+      "question": "What are the Premium features?",
+      "answer": "Premium servers are featured in the showcase, prioritized in search results, and can use custom designs (backgrounds, badges) on their profile pages. Visit the 'Billing' tab in your profile to purchase Premium."
+    },
+    "q5": {
+      "question": "The bot appears offline, what should I do?",
+      "answer": "Sometimes the bot may go offline due to Discord API outages. If the problem persists, please join our Support Server and contact the staff."
+    }
+  },
+  "status": {
+    "title": "System Status",
+    "allOperational": "All systems operational",
+    "someIssues": "Some systems experiencing issues",
+    "majorOutage": "Major outage detected",
+    "lastUpdated": "Last updated",
+    "uptime": "uptime",
+    "responseTime": "Response time",
+    "daysAgo": "90 days ago",
+    "today": "Today",
+    "incidents": "Previous incidents",
+    "noIncidents": "No incidents reported",
+    "services": {
+      "web": "Web",
+      "api": "API",
+      "database": "Database",
+      "discord": "Discord API & Gateway"
+    },
+    "statusLabels": {
+      "up": "Operational",
+      "down": "Down",
+      "degraded": "Degraded",
+      "unknown": "Unknown"
+    }
+  },
+  "languages": {
+    "all": "All Languages",
+    "tr": "Turkish",
+    "en_US": "English (US)",
+    "en_GB": "English (UK)",
+    "de": "German",
+    "fr": "French",
+    "es": "Spanish",
+    "pt": "Portuguese (BR)",
+    "ru": "Russian",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "zh": "Chinese (Simplified)",
+    "ar": "Arabic"
+  }
+}

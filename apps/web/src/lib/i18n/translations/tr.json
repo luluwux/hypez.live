@@ -1,0 +1,591 @@
+{
+  "common": {
+    "login": "Giriş Yap",
+    "download": "İndir",
+    "logout": "Çıkış Yap",
+    "dashboard": "Panel",
+    "profile": "Profilim",
+    "language": "Dil",
+    "search": "Sunucu ara...",
+    "addServer": "Sunucu Ekle",
+    "addYourServer": "Sunucunu Ekle",
+    "supportServer": "Destek Sunucusu",
+    "learnMore": "Daha Fazla",
+    "premiumShowcase": "Premium Vitrin",
+    "startDiscovering": "Keşfetmeye Başla",
+    "categories": "Kategoriler",
+    "selectCategory": "Kategori Seç",
+    "membersCount": "{count} üye"
+  },
+  "navbar": {
+    "discover": "Keşfet",
+    "allServers": "Tüm Sunucular",
+    "leaderboard": "Lider Tablosu",
+    "services": "Hizmetler",
+    "getPremium": "Premium Al",
+    "addBot": "Botu Ekle",
+    "support": "Destek",
+    "discordServer": "Discord Sunucumuz",
+    "helpCenter": "Yardım Merkezi",
+    "terms": "Kurallar ve Sözleşmeler",
+    "privacy": "Gizlilik Sözleşmesi",
+    "cookie": "Çerez Politikası",
+    "contentPolicy": "İçerik Politikası",
+    "salesAgreement": "Satış Sözleşmesi",
+    "allUsers": "Tüm Kullanıcılar"
+  },
+  "home": {
+    "hero": {
+      "activeServers": "✨ {count} Aktif Sunucu Online",
+      "title": "Yeni Sunucular Keşfet!",
+      "subtitle": "En iyi Discord sunucularını keşfet, topluluğunu bul ve seninle aynı fikirdeki insanlarla bağlantı kur.",
+      "marquee": "Yeni Sunucular Keşfet ✦ Hypez ✦ Topluluğunu Bul ✦"
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "subtitle": "Hypez hakkında bilmeniz gereken her şeyi burada bulabilirsiniz.",
+      "q1": {
+        "question": "Hypez Discord'dan bağımsız mı?",
+        "answer": "Evet, Hypez tamamen bağımsız bir girişimdir. Discord'un resmi bir parçası değiliz, ancak Discord topluluklarının büyümesine yardımcı olmak için tasarlanmış topluluk odaklı bir platformuz. Discord'un Hizmet Şartları ve Topluluk Kurallarına tam uyum sağlıyoruz."
+      },
+      "q2": {
+        "question": "\"Sunucu Yükseltme\" sistemi nasıl çalışır?",
+        "answer": "Premium sistemimizle sunucunuzu listelerin en üstüne taşıyabilir, özel rozetler (Premium/Premium Max) kazanabilir ve \"Vitrin\" bölümünde öne çıkabilirsiniz. Bu, sunucunuzun binlerce potansiyel üye tarafından daha hızlı fark edilmesini sağlayarak topluluğunuzun hızla büyümesine yardımcı olur."
+      },
+      "q3": {
+        "question": "Sunucumu nasıl ekleyebilirim?",
+        "answer": "Hypez botunu sunucunuza ekleyerek saniyeler içinde kayıt olabilirsiniz. Botumuz sunucu bilgilerinizi otomatik olarak çeker ve profilinizi oluşturur. Ardından, sunucunuzu tanıtmaya başlamak için kontrol panelinden açıklamanızı, banner'ınızı ve etiketlerinizi düzenleyebilirsiniz."
+      },
+      "q4": {
+        "question": "Listeleme ücretsiz mi?",
+        "answer": "Evet, sunucunuzu Hypez'a eklemek ve listelemek tamamen ücretsizdir. Ancak, daha fazla kişiye ulaşmak ve özel avantajlardan yararlanmak istiyorsanız uygun fiyatlı Premium paketlerimize göz atabilirsiniz."
+      }
+    },
+    "trustedBy": "✨ {count} Üye Tarafından Güveniliyor",
+    "spotAvailable": "Boş Alan",
+    "useHypeToRank": "Sıralama için /hype kullanın",
+    "trendingServers": "Popüler Sunucular",
+    "newlyAdded": "Yeni Eklenenler",
+    "topServers": "En İyi Sunucular",
+    "premium": {
+      "title": "Premium Sunucular"
+    },
+    "discover": {
+      "title": "Keşfetmeye Başla",
+      "more": "Tüm Sunucuları Gör"
+    },
+    "leaderboards": {
+      "title": "Liderlik Tablosu",
+      "mostVoted": "En Çok Oylanan",
+      "mostVoice": "En Çok Sesli",
+      "mostHype": "En Çok Hype",
+      "viewAll": "Tümünü Gör"
+    },
+    "boostAd": {
+      "title": "Sunucunu Boostla!",
+      "subtitle": "Topluluğunu binlerce kişiye sergileyerek büyüt.",
+      "cta": "Premium Al",
+      "sponsoredSlot": "Sponsorlu Alan",
+      "advertiseHere": "Buraya Reklam Ver"
+    }
+  },
+  "login": {
+    "welcome": "Hoş Geldiniz",
+    "subtitle": "Devam etmek için Discord ile giriş yapın",
+    "agreement": "Giriş yaparak şunları kabul edersiniz",
+    "and": "ve",
+    "newTo": "Hypez'ta yeni misiniz?"
+  },
+  "footer": {
+    "cta": {
+      "title": "Discord sunucunuzla rekabet etmeye hazır mısınız?",
+      "subtitle": "Botu sunucunuza ekleyin ve hemen başlayın."
+    },
+    "brand": {
+      "description": "Hypez'a hoş geldiniz, Discord'un tüm yönlerine derin bir tutku duyan çok yönlü bir geliştiricinin temelleri üzerine inşa edilmiş bir Discord Topluluğu."
+    },
+    "company": {
+      "title": "Şirket",
+      "about": "Hakkında",
+      "careers": "Kariyer",
+      "press": "Basın",
+      "affiliates": "Ortaklar"
+    },
+    "legal": {
+      "title": "Yasal"
+    },
+    "social": {
+      "title": "Sosyal Medya"
+    }
+  },
+  "premium": {
+    "title": "Topluluğunuzu Yükseltin",
+    "subtitle": "Potansiyelinizi Ortaya Çıkarın",
+    "description": "Discord sunucunuzu büyütmek için mükemmel planı seçin. Daha fazla görünürlük, daha fazla üye ve özel özellikler edinin.",
+    "badge": {
+      "bestValue": "EN İYİ FİYAT",
+      "mostPopular": "EN POPÜLER"
+    },
+    "button": {
+      "currentPlan": "Mevcut Plan",
+      "getStarted": "Başla"
+    },
+    "tiers": {
+      "free": "Ücretsiz",
+      "premium": "Premium",
+      "limitsiz": "Limitsiz",
+      "lifetime": "Ömür Boyu",
+      "limitsizDesc": "Tek seferlik ödeme. Tüm premium özellikler kalıcı olarak sizin.",
+      "freeDesc": "Topluluğunuz için temel sunucu listeleme ve özellikler.",
+      "premiumDesc": "Sunucunuzu büyütmek ve tanıtmak için gelişmiş araçlar."
+    },
+    "billing": {
+      "daily": "Günlük",
+      "weekly": "Haftalık",
+      "monthly": "Aylık",
+      "save": "Aylık ödeme ile %20'ye varan tasarruf edin!"
+    },
+    "features": {
+      "listing": "Temel Sunucu Listeleme",
+      "bump": "Standart Öne Çıkarma (Her 4s)",
+      "votePower": "1x Oy Gücü",
+      "socialLinks": "2 Sosyal Link",
+      "highlighted": "Vurgulu Listeleme (Sarı)",
+      "fasterBump": "Hızlı Öne Çıkarma (Her 2s)",
+      "animatedBanner": "Hareketli Banner",
+      "goldBadge": "Altın Rozet",
+      "topSearch": "Arama Sonuçlarında En Üst",
+      "instantBump": "Anlık Öne Çıkarma (Her 1s)",
+      "showcase": "Özel Vitrin Alanı",
+      "diamond": "Elmas Rozet & Parlama",
+      "support": "Öncelikli Destek",
+      "votePower1x": "1x Oy Gücü",
+      "votePower2x": "2x Oy Gücü",
+      "votePower3x": "3x Oy Gücü",
+      "highlightedDiamond": "Elmas Vurgulu Listeleme (Mavi)"
+    },
+    "cta": "Satın Almak İçin Giriş Yapın",
+    "comparePlans": "Planları Karşılaştır",
+    "faq": {
+      "title": "Ödeme SSS",
+      "subtitle": "Ödemeler veya abonelikler hakkında sorularınız mı var? Cevaplarımız var.",
+      "q1": {
+        "question": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
+        "answer": "Tüm büyük kredi kartlarını (Visa, Mastercard), PayPal'ı ve bölgenize bağlı yerel ödeme yöntemlerini kabul ediyoruz. Tüm ödemeler Stripe aracılığıyla güvenli bir şekilde işlenir."
+      },
+      "q2": {
+        "question": "Aboneliğimi istediğim zaman iptal edebilir miyim?",
+        "answer": "Evet! Aboneliğinizi istediğiniz zaman panelinizden iptal edebilirsiniz. Avantajlarınız mevcut fatura döneminin sonuna kadar devam eder."
+      },
+      "q3": {
+        "question": "İade sunuyor musunuz?",
+        "answer": "Premium hizmetlerimizden memnun kalmazsanız 7 günlük para iade garantisi sunuyoruz. İade işlemi için lütfen destek ekibimizle iletişime geçin."
+      },
+      "q4": {
+        "question": "Döngü ortasında yükseltme yaparsam ne olur?",
+        "answer": "Premium'dan Premium Max'e geçerseniz, yalnızca mevcut döngünüzün kalan günleri için orantılı farkı ödersiniz."
+      }
+    }
+  },
+  "discover": {
+    "hero": {
+      "title": "Yeni Sunucuları Keşfet",
+      "subtitle": "En iyi Discord sunucularını keşfedin, filtrelere göre arayın ve topluluğunuza katılın.",
+      "noResults": "Aradığınız kriterlerde sunucu bulunamadı.",
+      "badge": "Keşfet. Katıl. Ait Ol"
+    },
+    "filters": {
+      "serversFound": "{count} sunucu bulundu",
+      "sortBy": "Sırala",
+      "category": "Kategori",
+      "selectCategory": "Kategori Seç",
+      "all": "Tümü",
+      "language": "Dil",
+      "allLanguages": "Tüm Diller",
+      "nsfw": "+18 İçerikleri Göster (NSFW)",
+      "sort": {
+        "discover": "Keşfet",
+        "hype": "Hype",
+        "votes": "Oy",
+        "voice": "Ses",
+        "boost": "Boost",
+        "members": "Üye",
+        "recent": "Yeni"
+      }
+    },
+    "card": {
+      "noDescription": "Açıklama belirtilmemiş."
+    },
+    "search": {
+      "placeholder": "Discord sunucusu ara..."
+    }
+  },
+  "server": {
+    "stats": {
+      "members": "Üyeler",
+      "channels": "Kanallar",
+      "roles": "Roller",
+      "boost": "Boost",
+      "voice": "Ses",
+      "onlineMembers": "Online Üye",
+      "totalVotes": "Toplam Vote",
+      "voiceActivity": "Haftalık Ses Aktifliği",
+      "weeklyMessages": "Haftalık Mesaj",
+      "weeklyHype": "Haftalık Hype",
+      "totalHype": "Toplam Hype",
+      "voiceActivityChart": "Ses Aktifliği",
+      "messageActivityChart": "Mesaj Aktifliği",
+      "hypeScoreTrend": "Hype Skoru Trendi (7 Gün)",
+      "weeklyHypeScore": "Haftalık: {score} puan",
+      "noVoiceData": "Bu hafta için henüz ses verisi yok.",
+      "noMessageData": "Bu hafta için henüz mesaj verisi yok.",
+      "noHypeData": "Henüz hype verisi yok.",
+      "lastNRecords": "Son {n} Kayıt",
+      "dayN": "Gün {n}"
+    },
+    "info": {
+      "title": "Sunucu Bilgileri",
+      "verification": "Doğrulama Seviyesi",
+      "owner": "Sunucu Sahibi",
+      "memberCount": "Üye Sayısı",
+      "roleCount": "Rol Sayısı",
+      "channelCount": "Kanal Sayısı",
+      "voiceOnline": "Sesli Kanal",
+      "createdAt": "Oluşturulma Tarihi",
+      "language": "Dil",
+      "verified": "Doğrulanmış",
+      "standard": "Standart"
+    },
+    "topVoters": {
+      "title": "En Çok Oy Verenler",
+      "empty": "Henüz oy veren kullanıcı yok.",
+      "votes": "Oy"
+    },
+    "categories": {
+      "title": "Kategoriler",
+      "empty": "Kategori yok"
+    },
+    "tabs": {
+      "general": "Genel",
+      "statistics": "İstatistikler",
+      "emojis": "Emojiler",
+      "sticker": "Stickerlar"
+    },
+    "header": {
+      "joinServer": "Sunucuya Katıl",
+      "voteServer": "Oy Ver",
+      "linkNotSet": "Link Ayarlanmadı"
+    },
+    "emojis": {
+      "title": "Emojiler",
+      "empty": "Bu sunucuda henüz emoji bulunmuyor.",
+      "pendingSync": "Emoji verileri henüz senkronize edilmedi. Bot senkronizasyonu bekleniyor.",
+      "found": "{count} emoji bulundu",
+      "selected": "{count} seçili",
+      "clearSelection": "Seçimi Temizle",
+      "selectAll": "Tümünü Seç",
+      "downloadZip": "ZIP İndir ({count})",
+      "downloading": "İndiriliyor...",
+      "animated": "GIF"
+    },
+    "stickers": {
+      "title": "Stickerlar",
+      "empty": "Bu sunucuda henüz sticker bulunmuyor.",
+      "pendingSync": "Sticker verileri henüz senkronize edilmedi. Bot senkronizasyonu bekleniyor.",
+      "found": "{count} sticker bulundu",
+      "selected": "{count} seçili",
+      "clearSelection": "Seçimi Temizle",
+      "selectAll": "Tümünü Seç",
+      "downloadZip": "ZIP İndir ({count})",
+      "downloading": "İndiriliyor..."
+    }
+  },
+  "categories": {
+    "all": "Tümü",
+    "gaming": "Oyun",
+    "social": "Sohbet",
+    "music": "Müzik",
+    "community": "Topluluk",
+    "technology": "Teknoloji",
+    "roleplay": "Rol Yapma",
+    "anime": "Anime",
+    "art": "Sanat",
+    "programming": "Yazılım",
+    "crypto": "Kripto"
+  },
+  "admin": {
+    "dashboard": "Kontrol Paneli",
+    "servers": "Sunucular",
+    "users": "Kullanıcılar",
+    "settings": "Ayarlar",
+    "logout": "Çıkış Yap",
+    "overview": "Genel Bakış",
+    "totalServers": "Toplam Sunucu",
+    "totalUsers": "Toplam Kullanıcı",
+    "activeBoosts": "Aktif Boost",
+    "revenue": "Gelir",
+    "flaggedServers": "Şüpheli Sunucular",
+    "botSettings": "Bot Ayarları",
+    "welcome": "Hoş geldin, Yönetici!",
+    "manageSystem": "Sistem ayarlarını ve içeriği yönetin",
+    "viewAll": "Tümünü Gör",
+    "recentServers": "Son Sunucular",
+    "recentUsers": "Son Kullanıcılar",
+    "standardServers": "Standart Sunucular",
+    "premiumServers": "Premium Sunucular",
+    "tokenServers": "Token Sunucular",
+    "loading": "Yükleniyor...",
+    "lastUpdated": "Son güncellenme:",
+    "noData": "Veri yok",
+    "refresh": "Yenile",
+    "tryAgain": "Tekrar Dene",
+    "serverGrowth": "Sunucu Büyümesi",
+    "serverDistribution": "Sunucu Dağılımı",
+    "recentActivity": "Son İşlemler",
+    "adminActions": "Yöneticiler tarafından gerçekleştirilen son eylemler"
+  },
+  "top": {
+    "hero": {
+      "title": "Top 100 Sunucu Listesi",
+      "subtitle": "Gerçek etkileşim ve aktiviteye göre sıralanmış en iyi Discord topluluklarını bulun."
+    },
+    "lastUpdated": "Son Güncelleme:",
+    "time": {
+      "justNow": "Az önce",
+      "secondsAgo": "{seconds}sn önce",
+      "minutesAgo": "{minutes}dk önce",
+      "hoursAgo": "{hours}s önce"
+    },
+    "states": {
+      "error": "Sunucular yüklenemedi. Lütfen tekrar deneyin.",
+      "noServers": "Sunucu bulunamadı",
+      "noServersDesc": "Farklı bir sıralama deneyin veya daha sonra tekrar kontrol edin."
+    }
+  },
+  "profile": {
+    "layout": {
+      "accountManagement": "Hesap Yönetimi",
+      "myProfile": "Profilim",
+      "settings": "Ayarlar"
+    },
+    "settings": {
+      "title": "Uygulama Ayarları",
+      "language": {
+        "title": "Dil Seçimi"
+      },
+      "contentFilter": {
+        "title": "İçerik Filtresi",
+        "nsfw": "NSFW (18+) İçerikleri Göster",
+        "nsfwDesc": "Yetişkinlere yönelik içerik barındıran sunucuları listede gösterir."
+      },
+      "premium": {
+        "title": "Premium Kod Aktivasyonu",
+        "desc": "Premium kodunuzu buraya girerek istediğiniz sunucuyu Premium yapabilirsiniz.",
+        "inputPlaceholder": "Örn: HYPEZ-XXXX-XXXX-XXXX",
+        "verifyBtn": "Kodu Doğrula",
+        "redeemBtn": "Premium'u Aktif Et",
+        "selectServer": "Premium yapılacak sunucuyu seçin",
+        "noServers": "Sahip olduğunuz aktif bir sunucu bulunmamaktadır.",
+        "success": "Premium başarıyla aktif edildi!",
+        "error": "Kod doğrulanamadı veya sunucu seçimi geçersiz.",
+        "verifiedInfo": "Kod doğrulandı! Süre: {duration} Gün"
+      },
+      "dangerZone": {
+        "title": "Tehlikeli Alan",
+        "deleteAccount": "Hesabımı Sil",
+        "deleteDesc": "Hesabınızı sildiğinizde, kayıtlı tüm sunucularınız ve verileriniz kalıcı olarak silinecektir.",
+        "deleteBtn": "Hesabı Kalıcı Olarak Sil",
+        "alert": "Hesap silme işlemi şu anda devre dışı."
+      }
+    },
+    "editForm": {
+      "notAddedYet": "Henüz eklenmedi",
+      "unknown": "Bilinmeyen",
+      "views": "görüntülenme",
+      "likes": "beğeni",
+      "trust": "Güven:",
+      "profileCompletion": "Profil tamamlanma",
+      "notPublishedTitleHighlight": "Profilini yayınlamadan görüntüleyemezsin",
+      "notPublishedTitle": "Profil yayınlanmadı",
+      "notPublishedDesc": "Bilgilerini doldur ve aşağıdaki **Profili Yayınla** butonuna tıkla — herkese görünür hale gelsin. İlk yayında **Early Supporter** rozeti kazanırsın!",
+      "successSave": "Profil başarıyla kaydedildi.",
+      "errorSave": "Kaydedilemedi.",
+      "successPublish": "Profil yayınlandı! Artık herkese görünür.",
+      "errorPublish": "Yayınlanamadı.",
+      "profileInfo": "Profil Bilgileri",
+      "occupation": "Meslek",
+      "occupationPlaceholder": "Yazılım Geliştirici",
+      "gender": "Cinsiyet",
+      "genderPlaceholder": "Belirtmek istemiyorum",
+      "location": "Konum",
+      "locationPlaceholder": "İstanbul, Türkiye",
+      "birthday": "Doğum Tarihi",
+      "about": "Hakkında",
+      "aboutPlaceholder": "Kendinden bahset...",
+      "socialLinks": "Sosyal Bağlantılar",
+      "addLink": "Link Ekle",
+      "noLinks": "Henüz hiçbir sosyal bağlantı eklemedin.",
+      "publishProfile": "Profili Yayınla",
+      "unsavedChanges": "Kaydedilmemiş değişiklikler var!",
+      "cancel": "İptal",
+      "save": "Kaydet",
+      "genderOptions": {
+        "he": "Erkek",
+        "she": "Kadın",
+        "they": "Diğer",
+        "unspecified": "Belirtmek istemiyorum"
+      }
+    }
+  },
+  "userMenu": {
+    "profile": "Profil",
+    "language": "Dil Seçimi",
+    "nsfw": "18+ İçerikler",
+    "help": "Yardım",
+    "logout": "Çıkış Yap"
+  },
+  "userProfile": {
+    "loginRequired": "Bunun için giriş yapmalısınız",
+    "likeSuccess": "Profil beğenildi!",
+    "likeRemoved": "Beğeni geri alındı.",
+    "error": "Bir hata oluştu",
+    "goBack": "Geri Dön",
+    "edit": "Düzenle",
+    "about": "Hakkında",
+    "noAbout": "Henüz bilgi eklenmedi.",
+    "occupation": "Meslek",
+    "gender": "Cinsiyet",
+    "location": "Konum",
+    "birthday": "Doğum Günü",
+    "views": "Görüntülenme",
+    "likes": "Beğeni",
+    "unspecified": "Belirtilmedi",
+    "servers": "Sunucular",
+    "members": "üye",
+    "noServers": "Bu kullanıcının henüz projemizde bir sunucusu bulunmuyor.",
+    "social": "Sosyal",
+    "noSocial": "Sosyal hesap eklenmemiş",
+    "externalLinkTitle": "Harici Bağlantı",
+    "externalLinkDesc": "Şu anda harici bir bağlantıya yönlendiriliyorsunuz. Gideceğiniz adres:",
+    "cancel": "İptal",
+    "continue": "Devam Et"
+  },
+  "users": {
+    "hero": {
+      "title": "Tüm Kullanıcılar",
+      "subtitle": "Hypez platformundaki kayıtlı ve profilini herkese açmış kullanıcıları keşfet."
+    },
+    "filters": {
+      "found": "{count} kullanıcı bulundu",
+      "search": "Kullanıcı ara...",
+      "sortBy": "Sırala",
+      "sort": {
+        "newest": "En Yeni",
+        "oldest": "En Eski",
+        "likes": "En Çok Beğenilen",
+        "views": "En Çok Görüntülenen"
+      }
+    },
+    "card": {
+      "about": "Hakkında",
+      "noAbout": "Bu kullanıcı henüz bir hakkında bilgisi eklememiş.",
+      "likes": "Beğeni",
+      "views": "Görüntülenme",
+      "created": "Oluşturulma",
+      "visit": "Ziyaret Et",
+      "share": "Paylaş",
+      "linkCopied": "Link kopyalandı!"
+    }
+  },
+  "compareTable": {
+    "title": "Planları Karşılaştır",
+    "features": "Özellikler",
+    "free": "Ücretsiz",
+    "premium": "Premium",
+    "limitsiz": "Limitsiz",
+    "f1": "Sunucu Listeleme",
+    "f2": "Öne Çıkarma Sınırı",
+    "f2_val1": "Her 4 saatte",
+    "f2_val2": "Her 2 saatte",
+    "f3": "Hareketli Banner",
+    "f4": "Özel Davet Linki",
+    "f5": "Premium Rozeti",
+    "f5_val": "Gök Mavisi",
+    "f6": "Ana Sayfa Vitrini",
+    "f6_val": "Rastgele",
+    "f7": "Sosyal Linkler",
+    "f8": "Öncelikli Destek"
+  },
+  "help": {
+    "title": "Nasıl yardımcı olabiliriz?",
+    "subtitle": "Sıkça sorulan sorulara göz atın veya topluluğumuza katılarak destek ekibimizle iletişime geçin.",
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "supportServer": "Destek Sunucusu",
+    "supportDesc": "Aradığınız cevabı bulamadınız mı? Resmi Discord sunucumuza katılarak bizimle doğrudan iletişime geçebilirsiniz.",
+    "joinServer": "Sunucuya Katıl",
+    "otherLinks": "Diğer Bağlantılar",
+    "termsOfUse": "Kullanım Koşulları",
+    "privacyPolicy": "Gizlilik Politikası",
+    "inviteBot": "Botu Davet Et",
+    "q1": {
+      "question": "Hypez.net nedir?",
+      "answer": "Hypez.net, Discord sunucularını keşfetmenizi ve kendi sunucunuzu büyüterek daha büyük kitlelere ulaşmanızı sağlayan modern bir sunucu listeleme platformudur."
+    },
+    "q2": {
+      "question": "Sunucumu nasıl ekleyebilirim?",
+      "answer": "Sağ üst köşedeki veya menüdeki 'Botu Ekle' butonuna tıklayarak Hypez botunu sunucunuza ekleyin. Bot eklendikten sonra sunucunuz otomatik olarak platformda listelenmeye başlayacaktır."
+    },
+    "q3": {
+      "question": "Hype sistemi nasıl çalışıyor?",
+      "answer": "Kullanıcılar sunucunuza oy verdikçe ve sunucunuzu aktifliği arttıkça Hype puanı kazanırsınız. En yüksek Hype puanına sahip sunucular, liderlik tablosunda (Leaderboard) daha üst sıralarda yer alır."
+    },
+    "q4": {
+      "question": "Premium özellikler nelerdir?",
+      "answer": "Premium sunucular vitrinde gösterilir, arama sonuçlarında önceliklendirilir, ve profil sayfalarında özel tasarımlar (arkaplanlar, rozetler) kullanabilir. Premium satın almak için profilinizdeki 'Faturalar' sekmesini ziyaret edin."
+    },
+    "q5": {
+      "question": "Bot çevrimdışı görünüyor, ne yapmalıyım?",
+      "answer": "Bazen Discord API kesintileri nedeniyle bot çevrimdışı olabilir. Sorun devam ederse lütfen Destek Sunucumuza gelip yetkililerle iletişime geçin."
+    }
+  },
+  "status": {
+    "title": "Sistem Durumu",
+    "allOperational": "Tüm sistemler çalışıyor",
+    "someIssues": "Bazı sistemlerde sorun yaşanıyor",
+    "majorOutage": "Büyük kesinti tespit edildi",
+    "lastUpdated": "Son güncelleme",
+    "uptime": "çalışma süresi",
+    "responseTime": "Yanıt süresi",
+    "daysAgo": "90 gün önce",
+    "today": "Bugün",
+    "incidents": "Önceki olaylar",
+    "noIncidents": "Rapor edilen olay yok",
+    "services": {
+      "web": "Web",
+      "api": "API",
+      "database": "Veritabanı",
+      "discord": "Discord API & Gateway"
+    },
+    "statusLabels": {
+      "up": "Çalışıyor",
+      "down": "Çevrimdışı",
+      "degraded": "Yavaş",
+      "unknown": "Bilinmiyor"
+    }
+  },
+  "languages": {
+    "all": "Tüm Diller",
+    "tr": "Türkçe",
+    "en_US": "İngilizce (ABD)",
+    "en_GB": "İngilizce (İngiltere)",
+    "de": "Almanca",
+    "fr": "Fransızca",
+    "es": "İspanyolca",
+    "pt": "Portekizce (BR)",
+    "ru": "Rusça",
+    "ja": "Japonca",
+    "ko": "Korece",
+    "zh": "Çince (Basitleştirilmiş)",
+    "ar": "Arapça"
+  }
+}

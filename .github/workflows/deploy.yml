@@ -1,0 +1,147 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Deployment target (all, api, bot, web)'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - api
+          - bot
+          - web
+
+jobs:
+  ci-pass:
+    name: Verify CI Green
+    uses: ./.github/workflows/ci.yml
+
+  deploy-api:
+    name: Deploy API (Railway)
+    needs: ci-pass
+    if: success() && (github.event_name == 'push' || github.event.inputs.target == 'all' || github.event.inputs.target == 'api')
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Railway CLI
+        run: |
+          curl -fsSL https://railway.app/install.sh | sh
+          echo "$HOME/.railway/bin" >> $GITHUB_PATH
+
+      - name: Run Prisma migrations
+        run: railway run --service api npx prisma@6 migrate deploy --schema=prisma/schema.prisma
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+
+      - name: Deploy to Railway
+        run: railway up --service api --detach
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+
+      - name: Health check
+        run: |
+          for i in $(seq 1 30); do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "${{ secrets.API_HEALTH_URL }}" || echo "000")
+            if [ "$STATUS" = "200" ]; then
+              echo "API healthy ($STATUS)"
+              exit 0
+            fi
+            echo "Attempt $i/30: status $STATUS, retrying..."
+            sleep 5
+          done
+          echo "Health check failed after 30 attempts"
+          exit 1
+
+      - name: Rollback on health check failure
+        if: failure()
+        run: |
+          echo "Health check failed. Rolling back API deployment..."
+          railway rollback --service api
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+
+  deploy-bot:
+    name: Deploy Bot (Docker)
+    needs: ci-pass
+    if: success() && (github.event_name == 'push' || github.event.inputs.target == 'all' || github.event.inputs.target == 'bot')
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: |
+          docker build -t hypez-bot:latest -f apps/bot/Dockerfile .
+
+      - name: Push to registry
+        run: |
+          echo "${{ secrets.CONTAINER_REGISTRY_TOKEN }}" | docker login -u "${{ secrets.CONTAINER_REGISTRY_USER }}" --password-stdin ${{ secrets.CONTAINER_REGISTRY }}
+          docker tag hypez-bot:latest ${{ secrets.CONTAINER_REGISTRY }}/hypez-bot:latest
+          docker push ${{ secrets.CONTAINER_REGISTRY }}/hypez-bot:latest
+
+      - name: Deploy to server
+        run: |
+          # Pull and restart the bot container on the target host
+          ssh ${{ secrets.DEPLOY_HOST }} \
+            "docker pull ${{ secrets.CONTAINER_REGISTRY }}/hypez-bot:latest && \
+             docker stop hypez-bot || true && \
+             docker rm hypez-bot || true && \
+             docker run -d --name hypez-bot --restart unless-stopped \
+               --env-file /etc/hypez/bot.env \
+               ${{ secrets.CONTAINER_REGISTRY }}/hypez-bot:latest"
+
+      - name: Health check
+        run: |
+          sleep 10
+          for i in $(seq 1 12); do
+            if ssh ${{ secrets.DEPLOY_HOST }} "docker ps --filter name=hypez-bot --filter health=healthy --format '{{.Names}}'" | grep -q hypez-bot; then
+              echo "Bot healthy"
+              exit 0
+            fi
+            echo "Attempt $i/12: bot not healthy yet..."
+            sleep 5
+          done
+          echo "Bot health check failed"
+          exit 1
+
+  deploy-web:
+    name: Deploy Web (Vercel)
+    needs: ci-pass
+    if: success() && (github.event_name == 'push' || github.event.inputs.target == 'all' || github.event.inputs.target == 'web')
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy to Vercel
+        run: |
+          npx vercel --token ${{ secrets.VERCEL_TOKEN }} --prod --yes
+        working-directory: apps/web
+
+      - name: Health check
+        run: |
+          for i in $(seq 1 30); do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "${{ secrets.WEB_HEALTH_URL }}" || echo "000")
+            if [ "$STATUS" = "200" ]; then
+              echo "Web healthy ($STATUS)"
+              exit 0
+            fi
+            echo "Attempt $i/30: status $STATUS, retrying..."
+            sleep 5
+          done
+          echo "Health check failed after 30 attempts"
+          exit 1
+
+      - name: Rollback on health check failure
+        if: failure()
+        run: |
+          echo "Health check failed. Rolling back web deployment..."
+          npx vercel rollback --token ${{ secrets.VERCEL_TOKEN }} --yes
+        working-directory: apps/web

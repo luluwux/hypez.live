@@ -1,0 +1,439 @@
+{
+  "common": {
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "dashboard": "Tableau de bord",
+    "profile": "Mon Profil",
+    "language": "Langue",
+    "search": "Rechercher des serveurs...",
+    "addServer": "Ajouter un Serveur",
+    "addYourServer": "Ajoutez votre Serveur",
+    "supportServer": "Serveur de Support",
+    "learnMore": "En savoir plus",
+    "premiumShowcase": "Vitrine Premium",
+    "startDiscovering": "Commencer à Découvrir",
+    "categories": "Catégories",
+    "selectCategory": "Choisir la Catégorie",
+    "membersCount": "{count} membres"
+  },
+  "navbar": {
+    "discover": "Découvrir",
+    "allServers": "Tous les serveurs",
+    "leaderboard": "Classement",
+    "services": "Services",
+    "getPremium": "Obtenir Premium",
+    "addBot": "Ajouter le Bot",
+    "support": "Support",
+    "discordServer": "Notre serveur Discord",
+    "helpCenter": "Centre d'aide",
+    "terms": "Règles et conditions",
+    "privacy": "Politique de confidentialité",
+    "cookie": "Politique des cookies",
+    "contentPolicy": "Politique de contenu",
+    "salesAgreement": "Accord de vente",
+    "allUsers": "All Users"
+  },
+  "home": {
+    "hero": {
+      "activeServers": "✨ {count} Serveurs Actifs en Ligne",
+      "title": "Découvrez de Nouveaux Serveurs !",
+      "subtitle": "Explorez les meilleurs serveurs Discord, trouvez votre communauté et connectez-vous avec des personnes partageant les mêmes idées.",
+      "marquee": "Découvrez de Nouveaux Serveurs ✦ Hypez ✦ Trouvez votre Communauté ✦"
+    },
+    "faq": {
+      "title": "Foire Aux Questions",
+      "subtitle": "Trouvez tout ce que vous devez savoir sur Hypez ici.",
+      "q1": {
+        "question": "Hypez est-il indépendant de Discord ?",
+        "answer": "Oui, Hypez est une initiative complètement indépendante. Nous ne sommes pas une partie officielle de Discord, mais une plateforme axée sur la communauté conçue pour aider les communautés Discord à grandir et à prospérer. Nous respectons entièrement les conditions d'utilisation et les directives communautaires de Discord."
+      },
+      "q2": {
+        "question": "Comment fonctionne le système \"Boost Server\" ?",
+        "answer": "Avec notre système Premium, vous pouvez placer votre serveur en tête des listes, gagner des badges spéciaux (Premium/Premium Max) et être présenté dans la section \"Vitrine\". Cela garantit que votre serveur est remarqué par des milliers de membres potentiels plus rapidement, aidant votre communauté à croître rapidement."
+      },
+      "q3": {
+        "question": "Comment puis-je ajouter mon serveur ?",
+        "answer": "Vous pouvez vous inscrire en quelques secondes en ajoutant le bot Hypez à votre serveur. Notre bot récupère automatiquement les informations de votre serveur et crée votre profil. Vous pouvez ensuite modifier votre description, votre bannière et vos tags depuis le panneau de contrôle pour commencer à promouvoir votre serveur."
+      },
+      "q4": {
+        "question": "L'inscription est-elle gratuite ?",
+        "answer": "Non, l'ajout et l'inscription de votre serveur sur Hypez sont entièrement gratuits. Cependant, si vous souhaitez atteindre plus de personnes et bénéficier d'avantages exclusifs, vous pouvez consulter nos forfaits Premium abordables."
+      }
+    },
+    "trustedBy": "✨ Approuvé par {count} Membres",
+    "spotAvailable": "Place Disponible",
+    "useHypeToRank": "Utilisez /hype pour vous classer",
+    "trendingServers": "Serveurs Tendances",
+    "newlyAdded": "Récemment Ajoutés",
+    "topServers": "Meilleurs Serveurs",
+    "premium": {
+      "title": "Serveurs Premium"
+    },
+    "discover": {
+      "title": "Commencer à découvrir",
+      "more": "Plus"
+    },
+    "leaderboards": {
+      "title": "Classements",
+      "mostVoted": "Plus Votés",
+      "mostVoice": "Plus de Vocaux",
+      "mostHype": "Plus de Hype",
+      "viewAll": "Voir Tout"
+    },
+    "boostAd": {
+      "title": "Boostez votre serveur!",
+      "subtitle": "Développez votre communauté en la présentant à des milliers de personnes.",
+      "cta": "Obtenir Premium",
+      "sponsoredSlot": "Emplacement sponsorisé",
+      "advertiseHere": "Faites de la publicité ici"
+    }
+  },
+  "login": {
+    "welcome": "Bienvenue sur",
+    "subtitle": "Connectez-vous avec Discord pour continuer",
+    "agreement": "En vous connectant, vous acceptez nos",
+    "and": "et",
+    "newTo": "Nouveau sur Hypez ?"
+  },
+  "footer": {
+    "cta": {
+      "title": "Prêt à rivaliser avec votre serveur Discord ?",
+      "subtitle": "Ajoutez le bot à votre serveur et commencez immédiatement."
+    },
+    "brand": {
+      "description": "Bienvenue sur Hypez, une communauté Discord construite sur les fondations d'un développeur polyvalent qui a une passion profonde pour tous les aspects de Discord."
+    },
+    "company": {
+      "title": "Entreprise",
+      "about": "À propos",
+      "careers": "Carrières",
+      "press": "Presse",
+      "affiliates": "Affiliés"
+    },
+    "legal": {
+      "title": "Légal"
+    },
+    "social": {
+      "title": "Réseaux Sociaux"
+    }
+  },
+  "premium": {
+    "title": "Améliorez votre Communauté",
+    "subtitle": "Libérez votre Potentiel",
+    "description": "Choisissez le plan parfait pour faire grandir votre serveur Discord. Obtenez plus de visibilité, plus de membres et des fonctionnalités exclusives.",
+    "tiers": {
+      "free": "Gratuit",
+      "premium": "Premium",
+      "max": "Premium Max",
+      "freeDesc": "Référencement de base et fonctionnalités essentielles.",
+      "premiumDesc": "Outils avancés pour développer votre serveur."
+    },
+    "billing": {
+      "daily": "Quotidien",
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuel",
+      "save": "Économisez jusqu'à 20% avec la facturation mensuelle !"
+    },
+    "features": {
+      "listing": "Liste de Serveurs Basique",
+      "bump": "Bump Standard (Toutes les 4h)",
+      "votePower": "1x Puissance de Vote",
+      "socialLinks": "2 Liens Sociaux",
+      "highlighted": "Liste Mise en Avant (Jaune)",
+      "fasterBump": "Bump Plus Rapide (Toutes les 2h)",
+      "animatedBanner": "Bannière Animée",
+      "goldBadge": "Badge Or",
+      "topSearch": "Haut des Résultats de Recherche",
+      "instantBump": "Bump Instantané (Toutes les 1h)",
+      "showcase": "Emplacement de Vitrine En Vedette",
+      "diamond": "Badge Diamant & Lueur",
+      "support": "Support Prioritaire",
+      "votePower1x": "Puissance de vote 1x",
+      "votePower2x": "Puissance de vote 2x",
+      "votePower3x": "Puissance de vote 3x",
+      "highlightedDiamond": "Mise en évidence Diamant (Bleu)"
+    },
+    "cta": "Connectez-vous pour Acheter",
+    "comparePlans": "Comparer les Plans",
+    "faq": {
+      "title": "FAQ Paiement",
+      "subtitle": "Des questions sur les paiements ou les abonnements ? Nous avons des réponses.",
+      "q1": {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons toutes les principales cartes de crédit (Visa, Mastercard), PayPal et les méthodes de paiement locales selon votre région. Tous les paiements sont traités de manière sécurisée via Stripe."
+      },
+      "q2": {
+        "question": "Puis-je annuler mon abonnement à tout moment ?",
+        "answer": "Oui ! Vous pouvez annuler votre abonnement à tout moment depuis votre tableau de bord. Vos avantages continueront jusqu'à la fin de la période de facturation en cours."
+      },
+      "q3": {
+        "question": "Offrez-vous des remboursements ?",
+        "answer": "Nous offrons une garantie de remboursement de 7 jours si vous n'êtes pas satisfait de nos services Premium. Veuillez contacter notre équipe de support pour traiter un remboursement."
+      },
+      "q4": {
+        "question": "Que se passe-t-il si je mets à niveau au milieu d'un cycle ?",
+        "answer": "Si vous passez de Premium à Premium Max, vous ne serez facturé que la différence au prorata pour les jours restants de votre cycle actuel."
+      }
+    }
+  },
+  "server": {
+    "stats": {
+      "members": "Membres",
+      "channels": "Salons",
+      "roles": "Rôles",
+      "boost": "Boost",
+      "voice": "Vocal",
+      "onlineMembers": "Membres en ligne",
+      "totalVotes": "Votes totaux",
+      "voiceActivity": "Activité vocale hebdomadaire",
+      "weeklyMessages": "Messages hebdomadaires",
+      "weeklyHype": "Hype hebdomadaire",
+      "totalHype": "Hype total",
+      "voiceActivityChart": "Activité vocale",
+      "messageActivityChart": "Activité des messages",
+      "hypeScoreTrend": "Tendance du score Hype (7 jours)",
+      "weeklyHypeScore": "Hebdo : {score} points",
+      "noVoiceData": "Pas encore de données vocales cette semaine.",
+      "noMessageData": "Pas encore de données de messages cette semaine.",
+      "noHypeData": "Pas encore de données Hype.",
+      "lastNRecords": "Derniers {n} enregistrements",
+      "dayN": "Jour {n}"
+    },
+    "info": {
+      "title": "Infos du serveur",
+      "verification": "Vérification",
+      "memberCount": "Nombre de membres",
+      "roleCount": "Nombre de rôles",
+      "channelCount": "Nombre de salons",
+      "voiceOnline": "Vocal en ligne",
+      "createdAt": "Créé le",
+      "language": "Langue",
+      "verified": "Vérifié",
+      "standard": "Standard"
+    },
+    "topVoters": {
+      "title": "Top votants",
+      "empty": "Pas encore de votes.",
+      "votes": "votes"
+    },
+    "categories": {
+      "title": "Catégories",
+      "empty": "Pas de catégories"
+    },
+    "tabs": {
+      "general": "Général",
+      "statistics": "Statistiques",
+      "emojis": "Emojis",
+      "sticker": "Stickers"
+    },
+    "header": {
+      "joinServer": "Rejoindre le serveur",
+      "voteServer": "Voter",
+      "linkNotSet": "Lien non défini"
+    },
+    "emojis": {
+      "title": "Emojis",
+      "empty": "Aucun emoji sur ce serveur.",
+      "pendingSync": "Données emoji non synchronisées. En attente du bot.",
+      "found": "{count} emojis trouvés",
+      "selected": "{count} sélectionnés",
+      "clearSelection": "Effacer la sélection",
+      "selectAll": "Tout sélectionner",
+      "downloadZip": "Télécharger ZIP ({count})",
+      "downloading": "Téléchargement...",
+      "animated": "GIF"
+    },
+    "stickers": {
+      "title": "Stickers",
+      "empty": "Aucun sticker sur ce serveur.",
+      "pendingSync": "Données sticker non synchronisées. En attente du bot.",
+      "found": "{count} stickers trouvés",
+      "selected": "{count} sélectionnés",
+      "clearSelection": "Effacer la sélection",
+      "selectAll": "Tout sélectionner",
+      "downloadZip": "Télécharger ZIP ({count})",
+      "downloading": "Téléchargement..."
+    }
+  },
+  "categories": {
+    "all": "Tout",
+    "gaming": "Jeux",
+    "social": "Social",
+    "music": "Musique",
+    "community": "Communauté",
+    "technology": "Technologie",
+    "roleplay": "Jeu de Rôle",
+    "anime": "Anime",
+    "art": "Art",
+    "programming": "Programmation",
+    "crypto": "Crypto"
+  },
+  "discover": {
+    "hero": {
+      "badge": "Explore. Join. Belong",
+      "title": "Discover New Servers"
+    },
+    "filters": {
+      "serversFound": "{count} servers found",
+      "sortBy": "Sort By",
+      "category": "Category",
+      "all": "All",
+      "sort": {
+        "discover": "Discover",
+        "hype": "Hype",
+        "votes": "Votes",
+        "voice": "Voice",
+        "boost": "Boost",
+        "members": "Members",
+        "recent": "New"
+      }
+    },
+    "card": {
+      "noDescription": "No description provided."
+    },
+    "search": {
+      "placeholder": "Search for Discord servers..."
+    }
+  },
+  "top": {
+    "hero": {
+      "title": "Top 100 Servers List",
+      "subtitle": "Find the best Discord communities, ranked by real activity and engagement."
+    },
+    "lastUpdated": "Last Updated:",
+    "time": {
+      "justNow": "Just Now",
+      "secondsAgo": "{seconds}s ago",
+      "minutesAgo": "{minutes}m ago",
+      "hoursAgo": "{hours}h ago"
+    },
+    "states": {
+      "error": "Failed to load servers. Please try again.",
+      "noServers": "No servers found",
+      "noServersDesc": "Try a different ranking or check back later."
+    }
+  },
+  "profile": {
+    "layout": {
+      "accountManagement": "Account Management",
+      "myProfile": "My Profile",
+      "settings": "Settings"
+    },
+    "settings": {
+      "title": "App Settings",
+      "language": {
+        "title": "Language Selection"
+      },
+      "contentFilter": {
+        "title": "Content Filter",
+        "nsfw": "Show NSFW (18+) Content",
+        "nsfwDesc": "Shows servers with adult content in the list."
+      },
+      "dangerZone": {
+        "title": "Danger Zone",
+        "deleteAccount": "Delete My Account",
+        "deleteDesc": "When you delete your account, all your saved servers and data will be permanently deleted.",
+        "deleteBtn": "Delete Account Permanently",
+        "alert": "Account deletion is currently disabled."
+      }
+    },
+    "editForm": {
+      "notAddedYet": "Not added yet",
+      "unknown": "Unknown",
+      "views": "views",
+      "likes": "likes",
+      "trust": "Trust:",
+      "profileCompletion": "Profile completion",
+      "notPublishedTitleHighlight": "You can't view your profile without publishing",
+      "notPublishedTitle": "Profile not published",
+      "notPublishedDesc": "Fill in your details and click the **Publish Profile** button below — to make it visible to everyone. You'll earn the **Early Supporter** badge on your first publish!",
+      "successSave": "Profile saved successfully.",
+      "errorSave": "Could not be saved.",
+      "successPublish": "Profile published! It is now visible to everyone.",
+      "errorPublish": "Could not be published.",
+      "profileInfo": "Profile Information",
+      "occupation": "Occupation",
+      "occupationPlaceholder": "Software Developer",
+      "gender": "Gender",
+      "genderPlaceholder": "Prefer not to say",
+      "location": "Location",
+      "locationPlaceholder": "Istanbul, Turkey",
+      "birthday": "Birthday",
+      "about": "About",
+      "aboutPlaceholder": "Tell us about yourself...",
+      "socialLinks": "Social Links",
+      "addLink": "Add Link",
+      "noLinks": "You haven't added any social links yet.",
+      "publishProfile": "Publish Profile",
+      "unsavedChanges": "There are unsaved changes!",
+      "cancel": "Cancel",
+      "save": "Save",
+      "genderOptions": {
+        "he": "He/Him",
+        "she": "She/Her",
+        "they": "They/Them",
+        "unspecified": "Prefer not to say"
+      }
+    }
+  },
+  "userMenu": {
+    "profile": "Profile",
+    "language": "Language",
+    "nsfw": "NSFW Content",
+    "help": "Help",
+    "logout": "Log Out"
+  },
+  "userProfile": {
+    "loginRequired": "You must be logged in to do this",
+    "likeSuccess": "Profile liked!",
+    "likeRemoved": "Like removed.",
+    "error": "An error occurred",
+    "goBack": "Go Back",
+    "edit": "Edit",
+    "about": "About",
+    "noAbout": "No information added yet.",
+    "occupation": "Occupation",
+    "gender": "Gender",
+    "location": "Location",
+    "birthday": "Birthday",
+    "views": "Views",
+    "likes": "Likes",
+    "unspecified": "Unspecified",
+    "servers": "Servers",
+    "members": "members",
+    "noServers": "This user does not have any servers on our platform yet.",
+    "social": "Social",
+    "noSocial": "No social accounts added",
+    "externalLinkTitle": "External Link",
+    "externalLinkDesc": "You are currently being redirected to an external link. The destination address is:",
+    "cancel": "Cancel",
+    "continue": "Continue"
+  },
+  "users": {
+    "hero": {
+      "title": "All Users",
+      "subtitle": "Discover registered and publicly visible users on the Hypez platform."
+    },
+    "filters": {
+      "found": "{count} users found",
+      "search": "Search users...",
+      "sortBy": "Sort by",
+      "sort": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "likes": "Most Liked",
+        "views": "Most Viewed"
+      }
+    },
+    "card": {
+      "about": "About me",
+      "noAbout": "This user has not set an about me yet.",
+      "likes": "Likes",
+      "views": "Views",
+      "created": "Created",
+      "visit": "Visit",
+      "share": "Share",
+      "linkCopied": "Link copied!"
+    }
+  }
+}

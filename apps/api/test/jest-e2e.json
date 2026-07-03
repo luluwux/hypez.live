@@ -1,0 +1,14 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleDirectories": ["node_modules", "<rootDir>/../../../node_modules"],
+  "moduleNameMapper": {
+    "^(\\.\\.?/.*)\\.js$": "$1",
+    "^@hypez/shared-types$": "<rootDir>/../../../packages/shared-types/src/index.ts"
+  }
+}

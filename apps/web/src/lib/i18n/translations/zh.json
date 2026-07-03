@@ -1,0 +1,439 @@
+{
+  "common": {
+    "login": "登录",
+    "logout": "登出",
+    "dashboard": "仪表板",
+    "profile": "我的资料",
+    "language": "语言",
+    "search": "搜索服务器...",
+    "addServer": "添加服务器",
+    "addYourServer": "添加你的服务器",
+    "supportServer": "支持服务器",
+    "learnMore": "了解更多",
+    "premiumShowcase": "高级展示",
+    "startDiscovering": "开始探索",
+    "categories": "分类",
+    "selectCategory": "选择分类",
+    "membersCount": "{count} 名成员"
+  },
+  "navbar": {
+    "discover": "发现",
+    "allServers": "所有服务器",
+    "leaderboard": "排行榜",
+    "services": "服务",
+    "getPremium": "获取高级版",
+    "addBot": "添加机器人",
+    "support": "支持",
+    "discordServer": "我们的Discord服务器",
+    "helpCenter": "帮助中心",
+    "terms": "规则与条款",
+    "privacy": "隐私政策",
+    "cookie": "Cookie政策",
+    "contentPolicy": "内容政策",
+    "salesAgreement": "销售协议",
+    "allUsers": "All Users"
+  },
+  "home": {
+    "hero": {
+      "activeServers": "✨ {count} 个活跃服务器在线",
+      "title": "发现新服务器！",
+      "subtitle": "探索热门 Discord 服务器，找到你的社区，并与志同道合的人联系。",
+      "marquee": "发现新服务器 ✦ Hypez ✦ 找到你的社区 ✦"
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "在这里找到关于 Hypez 的所有信息。",
+      "q1": {
+        "question": "Hypez 独立于 Discord 吗？",
+        "answer": "是的，Hypez 是一项完全独立的计划。我们不是 Discord 的官方部分，而是一个专注于社区的平台，旨在帮助 Discord 社区成长和繁荣。我们完全遵守 Discord 的服务条款和社区准则。"
+      },
+      "q2": {
+        "question": "\"提升服务器\"系统如何运作？",
+        "answer": "通过我们的高级系统，您可以将您的服务器移至列表顶部，获得特殊徽章（高级/高级 Max），并在 \"展示\" 部分中展示。这确保您的服务器能被成千上万的潜在成员更快地注意到，帮助您的社区迅速成长。"
+      },
+      "q3": {
+        "question": "如何添加我的服务器？",
+        "answer": "只需将 Hypez 机器人添加到您的服务器，几秒钟即可注册。我们的机器人会自动获取您的服务器信息并创建您的个人资料。然后您可以在控制面板编辑您的描述、横幅和标签，开始推广您的服务器。"
+      },
+      "q4": {
+        "question": "列出是免费的吗？",
+        "answer": "不，在 Hypez 上添加和列出您的服务器是完全免费的。但是，如果您想接触更多人并享受独家优惠，您可以查看我们实惠的高级套餐。"
+      }
+    },
+    "trustedBy": "✨ 深受 {count} 名成员信任",
+    "spotAvailable": "可用位置",
+    "useHypeToRank": "使用 /hype 进行排名",
+    "trendingServers": "热门服务器",
+    "newlyAdded": "最新添加",
+    "topServers": "顶级服务器",
+    "premium": {
+      "title": "高级服务器"
+    },
+    "discover": {
+      "title": "开始探索",
+      "more": "更多"
+    },
+    "leaderboards": {
+      "title": "排行榜",
+      "mostVoted": "最多投票",
+      "mostVoice": "最多语音",
+      "mostHype": "最高热度",
+      "viewAll": "查看全部"
+    },
+    "boostAd": {
+      "title": "提升您的服务器！",
+      "subtitle": "向成千上万的人展示您的社区，以促进其发展。",
+      "cta": "获取高级版",
+      "sponsoredSlot": "赞助位",
+      "advertiseHere": "在此处投放广告"
+    }
+  },
+  "login": {
+    "welcome": "欢迎来到",
+    "subtitle": "使用 Discord 登录以继续",
+    "agreement": "登录即表示您同意我们的",
+    "and": "和",
+    "newTo": "刚到 Hypez？"
+  },
+  "footer": {
+    "cta": {
+      "title": "准备好与您的 Discord 服务器竞争了吗？",
+      "subtitle": "将机器人添加到您的服务器并立即开始。"
+    },
+    "brand": {
+      "description": "欢迎来到 Hypez，这是一个建立在对 Discord 各个方面充满热情的全能开发者基础之上的 Discord 社区。"
+    },
+    "company": {
+      "title": "公司",
+      "about": "关于",
+      "careers": "职业",
+      "press": "新闻",
+      "affiliates": "附属机构"
+    },
+    "legal": {
+      "title": "法律"
+    },
+    "social": {
+      "title": "社交媒体"
+    }
+  },
+  "premium": {
+    "title": "升级您的社区",
+    "subtitle": "释放您的潜力",
+    "description": "选择完美的计划来发展您的 Discord 服务器。获得更多曝光率、更多成员和独家功能。",
+    "tiers": {
+      "free": "免费",
+      "premium": "高级",
+      "max": "高级 Max",
+      "freeDesc": "基本服务器列表和基本功能。",
+      "premiumDesc": "发展和推广服务器的高级工具。"
+    },
+    "billing": {
+      "daily": "每日",
+      "weekly": "每周",
+      "monthly": "每月",
+      "save": "每月计费节省高达 20%！"
+    },
+    "features": {
+      "listing": "基本服务器列表",
+      "bump": "标准顶贴 (每4小时)",
+      "votePower": "1x 投票权",
+      "socialLinks": "2 社交链接",
+      "highlighted": "高亮列表 (黄色)",
+      "fasterBump": "更快顶贴 (每2小时)",
+      "animatedBanner": "动画横幅",
+      "goldBadge": "金徽章",
+      "topSearch": "搜索结果顶部",
+      "instantBump": "即时顶贴 (每1小时)",
+      "showcase": "特色展示位",
+      "diamond": "钻石徽章和光辉",
+      "support": "优先支持",
+      "votePower1x": "1倍投票权",
+      "votePower2x": "2倍投票权",
+      "votePower3x": "3倍投票权",
+      "highlightedDiamond": "钻石高亮 (蓝色)"
+    },
+    "cta": "登录购买",
+    "comparePlans": "比较计划",
+    "faq": {
+      "title": "支付常见问题",
+      "subtitle": "关于付款或订阅有问题？我们有答案。",
+      "q1": {
+        "question": "你们接受哪些付款方式？",
+        "answer": "我们接受所有主要信用卡（Visa, Mastercard）、PayPal 和根据您所在地区而定的本地付款方式。所有付款均通过 Stripe 安全处理。"
+      },
+      "q2": {
+        "question": "可以随时取消订阅吗？",
+        "answer": "是的！您可以随时从仪表板取消订阅。您的权益将持续到当前计费期结束。"
+      },
+      "q3": {
+        "question": "提供退款吗？",
+        "answer": "如果您对我们的高级服务不满意，我们提供 7 天退款保证。请联系我们的支持团队处理退款。"
+      },
+      "q4": {
+        "question": "如果在周期中间升级会发生什么？",
+        "answer": "如果您从高级升级到高级 Max，您只需支付当前周期剩余天数的按比例差额。"
+      }
+    }
+  },
+  "server": {
+    "stats": {
+      "members": "成员",
+      "channels": "频道",
+      "roles": "身份组",
+      "boost": "加速",
+      "voice": "语音",
+      "onlineMembers": "在线成员",
+      "totalVotes": "总投票",
+      "voiceActivity": "本周语音活跃",
+      "weeklyMessages": "本周消息数",
+      "weeklyHype": "本周热度",
+      "totalHype": "总热度",
+      "voiceActivityChart": "语音活跃度",
+      "messageActivityChart": "消息活跃度",
+      "hypeScoreTrend": "热度趋势 (7天)",
+      "weeklyHypeScore": "本周：{score} 分",
+      "noVoiceData": "本周暂无语音数据。",
+      "noMessageData": "本周暂无消息数据。",
+      "noHypeData": "暂无热度数据。",
+      "lastNRecords": "最近 {n} 条记录",
+      "dayN": "第 {n} 天"
+    },
+    "info": {
+      "title": "服务器信息",
+      "verification": "验证等级",
+      "memberCount": "成员数",
+      "roleCount": "身份组数",
+      "channelCount": "频道数",
+      "voiceOnline": "语音在线",
+      "createdAt": "创建于",
+      "language": "语言",
+      "verified": "已验证",
+      "standard": "标准"
+    },
+    "topVoters": {
+      "title": "投票榜",
+      "empty": "暂无投票记录。",
+      "votes": "票"
+    },
+    "categories": {
+      "title": "分类",
+      "empty": "暂无分类"
+    },
+    "tabs": {
+      "general": "概览",
+      "statistics": "统计",
+      "emojis": "表情",
+      "sticker": "贴纸"
+    },
+    "header": {
+      "joinServer": "加入服务器",
+      "voteServer": "投票",
+      "linkNotSet": "未设置链接"
+    },
+    "emojis": {
+      "title": "表情",
+      "empty": "此服务器暂无表情。",
+      "pendingSync": "表情数据尚未同步，等待Bot同步。",
+      "found": "找到 {count} 个表情",
+      "selected": "已选 {count}",
+      "clearSelection": "取消选择",
+      "selectAll": "全选",
+      "downloadZip": "下载 ZIP ({count})",
+      "downloading": "下载中...",
+      "animated": "GIF"
+    },
+    "stickers": {
+      "title": "贴纸",
+      "empty": "此服务器暂无贴纸。",
+      "pendingSync": "贴纸数据尚未同步，等待Bot同步。",
+      "found": "找到 {count} 个贴纸",
+      "selected": "已选 {count}",
+      "clearSelection": "取消选择",
+      "selectAll": "全选",
+      "downloadZip": "下载 ZIP ({count})",
+      "downloading": "下载中..."
+    }
+  },
+  "categories": {
+    "all": "全部",
+    "gaming": "游戏",
+    "social": "社交",
+    "music": "音乐",
+    "community": "社区",
+    "technology": "科技",
+    "roleplay": "角色扮演",
+    "anime": "动漫",
+    "art": "艺术",
+    "programming": "编程",
+    "crypto": "加密货币"
+  },
+  "discover": {
+    "hero": {
+      "badge": "Explore. Join. Belong",
+      "title": "Discover New Servers"
+    },
+    "filters": {
+      "serversFound": "{count} servers found",
+      "sortBy": "Sort By",
+      "category": "Category",
+      "all": "All",
+      "sort": {
+        "discover": "Discover",
+        "hype": "Hype",
+        "votes": "Votes",
+        "voice": "Voice",
+        "boost": "Boost",
+        "members": "Members",
+        "recent": "New"
+      }
+    },
+    "card": {
+      "noDescription": "No description provided."
+    },
+    "search": {
+      "placeholder": "Search for Discord servers..."
+    }
+  },
+  "top": {
+    "hero": {
+      "title": "Top 100 Servers List",
+      "subtitle": "Find the best Discord communities, ranked by real activity and engagement."
+    },
+    "lastUpdated": "Last Updated:",
+    "time": {
+      "justNow": "Just Now",
+      "secondsAgo": "{seconds}s ago",
+      "minutesAgo": "{minutes}m ago",
+      "hoursAgo": "{hours}h ago"
+    },
+    "states": {
+      "error": "Failed to load servers. Please try again.",
+      "noServers": "No servers found",
+      "noServersDesc": "Try a different ranking or check back later."
+    }
+  },
+  "profile": {
+    "layout": {
+      "accountManagement": "Account Management",
+      "myProfile": "My Profile",
+      "settings": "Settings"
+    },
+    "settings": {
+      "title": "App Settings",
+      "language": {
+        "title": "Language Selection"
+      },
+      "contentFilter": {
+        "title": "Content Filter",
+        "nsfw": "Show NSFW (18+) Content",
+        "nsfwDesc": "Shows servers with adult content in the list."
+      },
+      "dangerZone": {
+        "title": "Danger Zone",
+        "deleteAccount": "Delete My Account",
+        "deleteDesc": "When you delete your account, all your saved servers and data will be permanently deleted.",
+        "deleteBtn": "Delete Account Permanently",
+        "alert": "Account deletion is currently disabled."
+      }
+    },
+    "editForm": {
+      "notAddedYet": "Not added yet",
+      "unknown": "Unknown",
+      "views": "views",
+      "likes": "likes",
+      "trust": "Trust:",
+      "profileCompletion": "Profile completion",
+      "notPublishedTitleHighlight": "You can't view your profile without publishing",
+      "notPublishedTitle": "Profile not published",
+      "notPublishedDesc": "Fill in your details and click the **Publish Profile** button below — to make it visible to everyone. You'll earn the **Early Supporter** badge on your first publish!",
+      "successSave": "Profile saved successfully.",
+      "errorSave": "Could not be saved.",
+      "successPublish": "Profile published! It is now visible to everyone.",
+      "errorPublish": "Could not be published.",
+      "profileInfo": "Profile Information",
+      "occupation": "Occupation",
+      "occupationPlaceholder": "Software Developer",
+      "gender": "Gender",
+      "genderPlaceholder": "Prefer not to say",
+      "location": "Location",
+      "locationPlaceholder": "Istanbul, Turkey",
+      "birthday": "Birthday",
+      "about": "About",
+      "aboutPlaceholder": "Tell us about yourself...",
+      "socialLinks": "Social Links",
+      "addLink": "Add Link",
+      "noLinks": "You haven't added any social links yet.",
+      "publishProfile": "Publish Profile",
+      "unsavedChanges": "There are unsaved changes!",
+      "cancel": "Cancel",
+      "save": "Save",
+      "genderOptions": {
+        "he": "He/Him",
+        "she": "She/Her",
+        "they": "They/Them",
+        "unspecified": "Prefer not to say"
+      }
+    }
+  },
+  "userMenu": {
+    "profile": "Profile",
+    "language": "Language",
+    "nsfw": "NSFW Content",
+    "help": "Help",
+    "logout": "Log Out"
+  },
+  "userProfile": {
+    "loginRequired": "You must be logged in to do this",
+    "likeSuccess": "Profile liked!",
+    "likeRemoved": "Like removed.",
+    "error": "An error occurred",
+    "goBack": "Go Back",
+    "edit": "Edit",
+    "about": "About",
+    "noAbout": "No information added yet.",
+    "occupation": "Occupation",
+    "gender": "Gender",
+    "location": "Location",
+    "birthday": "Birthday",
+    "views": "Views",
+    "likes": "Likes",
+    "unspecified": "Unspecified",
+    "servers": "Servers",
+    "members": "members",
+    "noServers": "This user does not have any servers on our platform yet.",
+    "social": "Social",
+    "noSocial": "No social accounts added",
+    "externalLinkTitle": "External Link",
+    "externalLinkDesc": "You are currently being redirected to an external link. The destination address is:",
+    "cancel": "Cancel",
+    "continue": "Continue"
+  },
+  "users": {
+    "hero": {
+      "title": "All Users",
+      "subtitle": "Discover registered and publicly visible users on the Hypez platform."
+    },
+    "filters": {
+      "found": "{count} users found",
+      "search": "Search users...",
+      "sortBy": "Sort by",
+      "sort": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "likes": "Most Liked",
+        "views": "Most Viewed"
+      }
+    },
+    "card": {
+      "about": "About me",
+      "noAbout": "This user has not set an about me yet.",
+      "likes": "Likes",
+      "views": "Views",
+      "created": "Created",
+      "visit": "Visit",
+      "share": "Share",
+      "linkCopied": "Link copied!"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+export const VOTE_COOLDOWN_MS = 12 * 60 * 60 * 1000; // 12 saat
+export const HYPE_COOLDOWN_MS = 24 * 60 * 60 * 1000; // 24 saat
+export const CAPTCHA_TTL_MS = 120 * 1000;             // 2 dakika
+export const CAPTCHA_MAX_ATTEMPTS = 5;
+export const CAPTCHA_POOL_SIZE = 30;
+export const MAX_SERVER_DESCRIPTION_LENGTH = 500;
+export const MAX_SERVER_NAME_LENGTH = 100;
+export const VOTE_RATE_LIMIT_TTL = 60 * 1000;         // 1 dakika
+export const VOTE_RATE_LIMIT_MAX = 5;
+export const HYPE_SCORE_DIVISOR = 100_000;
+export const HYPE_MIN_MEMBER_COUNT = 25;
+export const DEFAULT_PAGINATION_LIMIT = 12;
+export const MAX_PAGINATION_LIMIT = 100;

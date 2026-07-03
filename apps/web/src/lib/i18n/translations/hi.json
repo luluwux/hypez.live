@@ -1,0 +1,439 @@
+{
+  "common": {
+    "login": "लॉग इन",
+    "logout": "लॉग आउट",
+    "dashboard": "डैशबोर्ड",
+    "profile": "मेरी प्रोफ़ाइल",
+    "language": "भाषा",
+    "search": "सर्वर खोजें...",
+    "addServer": "सर्वर जोड़ें",
+    "addYourServer": "अपना सर्वर जोड़ें",
+    "supportServer": "समर्थन सर्वर",
+    "learnMore": "और जानें",
+    "premiumShowcase": "प्रीमियम शोकेस",
+    "startDiscovering": "खोजना शुरू करें",
+    "categories": "श्रेणियाँ",
+    "selectCategory": "श्रेणी चुनें",
+    "membersCount": "{count} सदस्य"
+  },
+  "navbar": {
+    "discover": "खोजें",
+    "allServers": "सभी सर्वर",
+    "leaderboard": "लीडरबोर्ड",
+    "services": "सेवाएं",
+    "getPremium": "प्रीमियम प्राप्त करें",
+    "addBot": "बॉट जोड़ें",
+    "support": "समर्थन",
+    "discordServer": "हमारा डिस्कॉर्ड सर्वर",
+    "helpCenter": "सहायता केंद्र",
+    "terms": "नियम और शर्तें",
+    "privacy": "गोपनीयता नीति",
+    "cookie": "कुकी नीति",
+    "contentPolicy": "सामग्री नीति",
+    "salesAgreement": "बिक्री समझौता",
+    "allUsers": "All Users"
+  },
+  "home": {
+    "hero": {
+      "activeServers": "✨ {count} सक्रिय सर्वर ऑनलाइन",
+      "title": "नए सर्वर खोजें!",
+      "subtitle": "शीर्ष डिस्कॉर्ड सर्वरों का अन्वेषण करें, अपना समुदाय खोजें, और समान विचारधारा वाले लोगों से जुड़ें।",
+      "marquee": "नए सर्वर खोजें ✦ Hypez ✦ अपना समुदाय खोजें ✦"
+    },
+    "faq": {
+      "title": "अक्सर पूछे जाने वाले प्रश्न",
+      "subtitle": "ल्यूपक्स के बारे में आपको जो कुछ भी जानने की जरूरत है, वह सब यहां पाएं।",
+      "q1": {
+        "question": "क्या Hypez डिस्कॉर्ड से स्वतंत्र है?",
+        "answer": "हाँ, Hypez पूरी तरह से एक स्वतंत्र पहल है। हम डिस्कॉर्ड का आधिकारिक हिस्सा नहीं हैं, बल्कि एक समुदाय-केंद्रित मंच हैं जिसे डिस्कॉर्ड समुदायों को बढ़ने और पनपने में मदद करने के लिए डिज़ाइन किया गया है। हम डिस्कॉर्ड की सेवा की शर्तों और सामुदायिक दिशानिर्देशों का पूरी तरह से पालन करते हैं।"
+      },
+      "q2": {
+        "question": "\"बूस्ट सर्वर\" सिस्टम कैसे काम करता है?",
+        "answer": "हमारे प्रीमियम सिस्टम के साथ, आप अपने सर्वर को सूचियों के शीर्ष पर ले जा सकते हैं, विशेष बैज (प्रीमियम/प्रीमियम मैक्स) कमा सकते हैं, और \"शोकेस\" अनुभाग में प्रदर्शित हो सकते हैं। यह सुनिश्चित करता है कि आपके सर्वर पर हजारों संभावित सदस्यों द्वारा तेजी से ध्यान दिया जाए, जिससे आपके समुदाय को तेजी से बढ़ने में मदद मिले।"
+      },
+      "q3": {
+        "question": "मैं अपना सर्वर कैसे जोड़ सकता हूँ?",
+        "answer": "आप बस Hypez बॉट को अपने सर्वर में जोड़कर सेकंडों में पंजीकरण कर सकते हैं। हमारा बॉट स्वचालित रूप से आपके सर्वर की जानकारी खींचता है और आपकी प्रोफ़ाइल बनाता है। फिर आप अपने सर्वर का प्रचार शुरू करने के लिए कंट्रोल पैनल से अपना विवरण, बैनर और टैग संपादित कर सकते हैं।"
+      },
+      "q4": {
+        "question": "क्या लिस्टिंग मुफ्त है?",
+        "answer": "नहीं, Hypez पर अपने सर्वर को जोड़ना और सूचीबद्ध करना पूरी तरह से मुफ्त है। हालाँकि, यदि आप अधिक लोगों तक पहुँचना चाहते हैं और विशेष लाभों का लाभ उठाना चाहते हैं, तो आप हमारे किफायती प्रीमियम पैकेज देख सकते हैं।"
+      }
+    },
+    "trustedBy": "✨ {count} सदस्यों द्वारा विश्वसनीय",
+    "spotAvailable": "स्थान उपलब्ध",
+    "useHypeToRank": "रैंक के लिए /hype का उपयोग करें",
+    "trendingServers": "ट्रेंडिंग सर्वर",
+    "newlyAdded": "हाल ही में जोड़े गए",
+    "topServers": "शीर्ष सर्वर",
+    "premium": {
+      "title": "प्रीमियम सर्वर"
+    },
+    "discover": {
+      "title": "खोजना शुरू करें",
+      "more": "और"
+    },
+    "leaderboards": {
+      "title": "लीडरबोर्ड",
+      "mostVoted": "सबसे ज्यादा वोट",
+      "mostVoice": "सबसे ज्यादा वॉइस",
+      "mostHype": "सबसे ज्यादा हाइप",
+      "viewAll": "सभी देखें"
+    },
+    "boostAd": {
+      "title": "अपने सर्वर को बूस्ट करें!",
+      "subtitle": "इसे हजारों लोगों को दिखाकर अपने समुदाय को बढ़ाएं।",
+      "cta": "प्रीमियम प्राप्त करें",
+      "sponsoredSlot": "प्रायोजित स्लॉट",
+      "advertiseHere": "यहां विज्ञापन दें"
+    }
+  },
+  "login": {
+    "welcome": "में आपका स्वागत है",
+    "subtitle": "जारी रखने के लिए डिस्कॉर्ड के साथ साइन इन करें",
+    "agreement": "साइन इन करके, आप हमारे से सहमत होते हैं",
+    "and": "और",
+    "newTo": "Hypez में नए हैं?"
+  },
+  "footer": {
+    "cta": {
+      "title": "अपने डिस्कॉर्ड सर्वर के साथ प्रतिस्पर्धा करने के लिए तैयार हैं?",
+      "subtitle": "बॉट को अपने सर्वर में जोड़ें और तुरंत शुरू करें।"
+    },
+    "brand": {
+      "description": "Hypez में आपका स्वागत है, एक डिस्कॉर्ड समुदाय जो एक बहुमुखी डेवलपर की नींव पर बनाया गया है जिसे डिस्कॉर्ड के सभी पहलुओं का गहरा शौक है।"
+    },
+    "company": {
+      "title": "कंपनी",
+      "about": "के बारे में",
+      "careers": "करियर",
+      "press": "प्रेस",
+      "affiliates": "सहयोगी"
+    },
+    "legal": {
+      "title": "कानूनी"
+    },
+    "social": {
+      "title": "सोशल मीडिया"
+    }
+  },
+  "premium": {
+    "title": "अपने समुदाय को अपग्रेड करें",
+    "subtitle": "अपनी क्षमता को अनलॉक करें",
+    "description": "अपने डिस्कॉर्ड सर्वर को बढ़ाने के लिए सही योजना चुनें। अधिक दृश्यता, अधिक सदस्य और विशेष सुविधाएँ प्राप्त करें।",
+    "tiers": {
+      "free": "मुफ़्त",
+      "premium": "प्रीमियम",
+      "max": "प्रीमियम मैक्स",
+      "freeDesc": "बुनियादी सर्वर लिस्टिंग और आवश्यक सुविधाएँ।",
+      "premiumDesc": "आपके सर्वर को विकसित करने के लिए उन्नत उपकरण।"
+    },
+    "billing": {
+      "daily": "दैनिक",
+      "weekly": "साप्ताहिक",
+      "monthly": "मासिक",
+      "save": "मासिक बिलिंग के साथ 20% तक बचाएं!"
+    },
+    "features": {
+      "listing": "बुनियादी सर्वर लिस्टिंग",
+      "bump": "मानक बंप (हर 4 घंटे)",
+      "votePower": "1x वोट पावर",
+      "socialLinks": "2 सोशल लिंक्स",
+      "highlighted": "हाइलाइट की गई लिस्टिंग (पीला)",
+      "fasterBump": "तेज़ बंप (हर 2 घंटे)",
+      "animatedBanner": "एनिमेटेड बैनर",
+      "goldBadge": "गोल्ड बैज",
+      "topSearch": "खोज परिणामों में सबसे ऊपर",
+      "instantBump": "तत्काल बंप (हर 1 घंटे)",
+      "showcase": "विशिष्ट शोकेस स्लॉट",
+      "diamond": "डायमंड बैज और चमक",
+      "support": "प्राथमिकता समर्थन",
+      "votePower1x": "1x वोट पावर",
+      "votePower2x": "2x वोट पावर",
+      "votePower3x": "3x वोट पावर",
+      "highlightedDiamond": "डायमंड हाइलाइट (नीला)"
+    },
+    "cta": "खरीदने के लिए लॉगिन करें",
+    "comparePlans": "योजनाओं की तुलना करें",
+    "faq": {
+      "title": "भुगतान अक्सर पूछे जाने वाले प्रश्न",
+      "subtitle": "भुगतान या सदस्यता के बारे में प्रश्न हैं? हमारे पास उत्तर हैं।",
+      "q1": {
+        "question": "आप किन भुगतान विधियों को स्वीकार करते हैं?",
+        "answer": "हम सभी प्रमुख क्रेडिट कार्ड (वीज़ा, मास्टरकार्ड), पेपाल और आपके क्षेत्र के आधार पर स्थानीय भुगतान विधियों को स्वीकार करते हैं। सभी भुगतान सुरक्षित रूप से स्ट्राइप के माध्यम से संसाधित किए जाते हैं।"
+      },
+      "q2": {
+        "question": "क्या मैं अपनी सदस्यता कभी भी रद्द कर सकता हूँ?",
+        "answer": "हाँ! आप अपने डैशबोर्ड से किसी भी समय अपनी सदस्यता रद्द कर सकते हैं। आपके लाभ वर्तमान बिलिंग अवधि के अंत तक जारी रहेंगे।"
+      },
+      "q3": {
+        "question": "क्या आप रिफंड प्रदान करते हैं?",
+        "answer": "यदि आप हमारी प्रीमियम सेवाओं से संतुष्ट नहीं हैं तो हम 7-दिन की मनी-बैक गारंटी प्रदान करते हैं। रिफंड की प्रक्रिया के लिए कृपया हमारी सहायता टीम से संपर्क करें।"
+      },
+      "q4": {
+        "question": "अगर मैं एक चक्र के बीच में अपग्रेड करता हूँ तो क्या होगा?",
+        "answer": "यदि आप प्रीमियम से प्रीमियम मैक्स में अपग्रेड करते हैं, तो आपसे केवल आपके वर्तमान चक्र के शेष दिनों के लिए आनुपातिक अंतर शुल्क लिया जाएगा।"
+      }
+    }
+  },
+  "server": {
+    "stats": {
+      "members": "सदस्य",
+      "channels": "चैनल",
+      "roles": "भूमिकाएं",
+      "boost": "बूस्ट",
+      "voice": "वॉइस",
+      "onlineMembers": "ऑनलाइन सदस्य",
+      "totalVotes": "कुल वोट",
+      "voiceActivity": "साप्ताहिक वॉइस गतिविधि",
+      "weeklyMessages": "साप्ताहिक संदेश",
+      "weeklyHype": "साप्ताहिक हाइप",
+      "totalHype": "कुल हाइप",
+      "voiceActivityChart": "वॉइस गतिविधि",
+      "messageActivityChart": "संदेश गतिविधि",
+      "hypeScoreTrend": "हाइप स्कोर ट्रेंड (7 दिन)",
+      "weeklyHypeScore": "साप्ताहिक: {score} अंक",
+      "noVoiceData": "इस सप्ताह कोई वॉइस डेटा नहीं।",
+      "noMessageData": "इस सप्ताह कोई संदेश डेटा नहीं।",
+      "noHypeData": "अभी कोई हाइप डेटा नहीं।",
+      "lastNRecords": "अंतिम {n} रिकॉर्ड",
+      "dayN": "दिन {n}"
+    },
+    "info": {
+      "title": "सर्वर जानकारी",
+      "verification": "सत्यापन",
+      "memberCount": "सदस्य संख्या",
+      "roleCount": "भूमिका संख्या",
+      "channelCount": "चैनल संख्या",
+      "voiceOnline": "वॉइस ऑनलाइन",
+      "createdAt": "बनाया गया",
+      "language": "भाषा",
+      "verified": "सत्यापित",
+      "standard": "मानक"
+    },
+    "topVoters": {
+      "title": "शीर्ष मतदाता",
+      "empty": "अभी तक कोई वोट नहीं।",
+      "votes": "वोट"
+    },
+    "categories": {
+      "title": "श्रेणियां",
+      "empty": "कोई श्रेणी नहीं"
+    },
+    "tabs": {
+      "general": "सामान्य",
+      "statistics": "सांख्यिकी",
+      "emojis": "इमोजी",
+      "sticker": "स्टिकर"
+    },
+    "header": {
+      "joinServer": "सर्वर में शामिल हों",
+      "voteServer": "वोट करें",
+      "linkNotSet": "लिंक सेट नहीं है"
+    },
+    "emojis": {
+      "title": "इमोजी",
+      "empty": "इस सर्वर पर अभी कोई इमोजी नहीं।",
+      "pendingSync": "इमोजी डेटा सिंक नहीं हुआ।",
+      "found": "{count} इमोजी मिले",
+      "selected": "{count} चुने गए",
+      "clearSelection": "चयन हटाएं",
+      "selectAll": "सभी चुनें",
+      "downloadZip": "ZIP डाउनलोड ({count})",
+      "downloading": "डाउनलोड हो रहा है...",
+      "animated": "GIF"
+    },
+    "stickers": {
+      "title": "स्टिकर",
+      "empty": "इस सर्वर पर अभी कोई स्टिकर नहीं।",
+      "pendingSync": "स्टिकर डेटा सिंक नहीं हुआ।",
+      "found": "{count} स्टिकर मिले",
+      "selected": "{count} चुने गए",
+      "clearSelection": "चयन हटाएं",
+      "selectAll": "सभी चुनें",
+      "downloadZip": "ZIP डाउनलोड ({count})",
+      "downloading": "डाउनलोड हो रहा है..."
+    }
+  },
+  "categories": {
+    "all": "सभी",
+    "gaming": "गेमिंग",
+    "social": "सामाजिक",
+    "music": "संगीत",
+    "community": "समुदाय",
+    "technology": "प्रौद्योगिकी",
+    "roleplay": "रोलप्ले",
+    "anime": "एनीमे",
+    "art": "कला",
+    "programming": "प्रोग्रामिंग",
+    "crypto": "क्रिप्टो"
+  },
+  "discover": {
+    "hero": {
+      "badge": "Explore. Join. Belong",
+      "title": "Discover New Servers"
+    },
+    "filters": {
+      "serversFound": "{count} servers found",
+      "sortBy": "Sort By",
+      "category": "Category",
+      "all": "All",
+      "sort": {
+        "discover": "Discover",
+        "hype": "Hype",
+        "votes": "Votes",
+        "voice": "Voice",
+        "boost": "Boost",
+        "members": "Members",
+        "recent": "New"
+      }
+    },
+    "card": {
+      "noDescription": "No description provided."
+    },
+    "search": {
+      "placeholder": "Search for Discord servers..."
+    }
+  },
+  "top": {
+    "hero": {
+      "title": "Top 100 Servers List",
+      "subtitle": "Find the best Discord communities, ranked by real activity and engagement."
+    },
+    "lastUpdated": "Last Updated:",
+    "time": {
+      "justNow": "Just Now",
+      "secondsAgo": "{seconds}s ago",
+      "minutesAgo": "{minutes}m ago",
+      "hoursAgo": "{hours}h ago"
+    },
+    "states": {
+      "error": "Failed to load servers. Please try again.",
+      "noServers": "No servers found",
+      "noServersDesc": "Try a different ranking or check back later."
+    }
+  },
+  "profile": {
+    "layout": {
+      "accountManagement": "Account Management",
+      "myProfile": "My Profile",
+      "settings": "Settings"
+    },
+    "settings": {
+      "title": "App Settings",
+      "language": {
+        "title": "Language Selection"
+      },
+      "contentFilter": {
+        "title": "Content Filter",
+        "nsfw": "Show NSFW (18+) Content",
+        "nsfwDesc": "Shows servers with adult content in the list."
+      },
+      "dangerZone": {
+        "title": "Danger Zone",
+        "deleteAccount": "Delete My Account",
+        "deleteDesc": "When you delete your account, all your saved servers and data will be permanently deleted.",
+        "deleteBtn": "Delete Account Permanently",
+        "alert": "Account deletion is currently disabled."
+      }
+    },
+    "editForm": {
+      "notAddedYet": "Not added yet",
+      "unknown": "Unknown",
+      "views": "views",
+      "likes": "likes",
+      "trust": "Trust:",
+      "profileCompletion": "Profile completion",
+      "notPublishedTitleHighlight": "You can't view your profile without publishing",
+      "notPublishedTitle": "Profile not published",
+      "notPublishedDesc": "Fill in your details and click the **Publish Profile** button below — to make it visible to everyone. You'll earn the **Early Supporter** badge on your first publish!",
+      "successSave": "Profile saved successfully.",
+      "errorSave": "Could not be saved.",
+      "successPublish": "Profile published! It is now visible to everyone.",
+      "errorPublish": "Could not be published.",
+      "profileInfo": "Profile Information",
+      "occupation": "Occupation",
+      "occupationPlaceholder": "Software Developer",
+      "gender": "Gender",
+      "genderPlaceholder": "Prefer not to say",
+      "location": "Location",
+      "locationPlaceholder": "Istanbul, Turkey",
+      "birthday": "Birthday",
+      "about": "About",
+      "aboutPlaceholder": "Tell us about yourself...",
+      "socialLinks": "Social Links",
+      "addLink": "Add Link",
+      "noLinks": "You haven't added any social links yet.",
+      "publishProfile": "Publish Profile",
+      "unsavedChanges": "There are unsaved changes!",
+      "cancel": "Cancel",
+      "save": "Save",
+      "genderOptions": {
+        "he": "He/Him",
+        "she": "She/Her",
+        "they": "They/Them",
+        "unspecified": "Prefer not to say"
+      }
+    }
+  },
+  "userMenu": {
+    "profile": "Profile",
+    "language": "Language",
+    "nsfw": "NSFW Content",
+    "help": "Help",
+    "logout": "Log Out"
+  },
+  "userProfile": {
+    "loginRequired": "You must be logged in to do this",
+    "likeSuccess": "Profile liked!",
+    "likeRemoved": "Like removed.",
+    "error": "An error occurred",
+    "goBack": "Go Back",
+    "edit": "Edit",
+    "about": "About",
+    "noAbout": "No information added yet.",
+    "occupation": "Occupation",
+    "gender": "Gender",
+    "location": "Location",
+    "birthday": "Birthday",
+    "views": "Views",
+    "likes": "Likes",
+    "unspecified": "Unspecified",
+    "servers": "Servers",
+    "members": "members",
+    "noServers": "This user does not have any servers on our platform yet.",
+    "social": "Social",
+    "noSocial": "No social accounts added",
+    "externalLinkTitle": "External Link",
+    "externalLinkDesc": "You are currently being redirected to an external link. The destination address is:",
+    "cancel": "Cancel",
+    "continue": "Continue"
+  },
+  "users": {
+    "hero": {
+      "title": "All Users",
+      "subtitle": "Discover registered and publicly visible users on the Hypez platform."
+    },
+    "filters": {
+      "found": "{count} users found",
+      "search": "Search users...",
+      "sortBy": "Sort by",
+      "sort": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "likes": "Most Liked",
+        "views": "Most Viewed"
+      }
+    },
+    "card": {
+      "about": "About me",
+      "noAbout": "This user has not set an about me yet.",
+      "likes": "Likes",
+      "views": "Views",
+      "created": "Created",
+      "visit": "Visit",
+      "share": "Share",
+      "linkCopied": "Link copied!"
+    }
+  }
+}
